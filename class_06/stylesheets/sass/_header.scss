@@ -1,0 +1,18 @@
+.main-header {
+	overflow: hidden;
+}
+.logo {
+	float: left;
+	font-size: 2.4em;
+	line-height: 2.4em;
+}
+.main-nav {
+	float: right;
+	list-style-type: none;
+	width: auto;
+}
+.main-nav__item {
+	float: left;
+	margin-left: 3em;
+	line-height: 6em;
+}
