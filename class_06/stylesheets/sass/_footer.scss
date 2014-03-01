@@ -1,0 +1,34 @@
+.main-footer {
+	background: $dark-grey;
+	color: $light-grey;
+	overflow: hidden;
+	padding: 4em 0;
+}
+.footer__column {
+	width: 28%;
+	margin-right: 8%;
+	float: left;
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.map {
+	width: 100%;
+	height: 10em;
+	background: $med-grey;
+	text-align: center;
+	line-height: 10em;
+	color: $dark-grey;
+	margin-bottom: 2.2em;
+}
+.twitter {
+	margin-bottom: 2.2em;
+}
+.contact__field--message {
+	width: 90%;	
+	height: 5em;
+}
+.contact__button--submit {
+	@include button-style(1em, 0.3em, 1.2em);
+	border: none;
+}

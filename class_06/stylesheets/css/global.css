@@ -28,6 +28,57 @@
   line-height: 6em;
 }
 
+/* line 1, ../sass/_footer.scss */
+.main-footer {
+  background: #474747;
+  color: #e0e0e0;
+  overflow: hidden;
+  padding: 4em 0;
+}
+
+/* line 7, ../sass/_footer.scss */
+.footer__column {
+  width: 28%;
+  margin-right: 8%;
+  float: left;
+}
+/* line 11, ../sass/_footer.scss */
+.footer__column:last-child {
+  margin-right: 0;
+}
+
+/* line 15, ../sass/_footer.scss */
+.map {
+  width: 100%;
+  height: 10em;
+  background: #999999;
+  text-align: center;
+  line-height: 10em;
+  color: #474747;
+  margin-bottom: 2.2em;
+}
+
+/* line 24, ../sass/_footer.scss */
+.twitter {
+  margin-bottom: 2.2em;
+}
+
+/* line 27, ../sass/_footer.scss */
+.contact__field--message {
+  width: 90%;
+  height: 5em;
+}
+
+/* line 31, ../sass/_footer.scss */
+.contact__button--submit {
+  font-size: 1em;
+  padding: 0.3em 1.2em;
+  background: #e0e0e0;
+  color: #474747;
+  width: auto;
+  border: none;
+}
+
 /* line 1, ../sass/_home.scss */
 .intro {
   width: 100%;
@@ -111,13 +162,14 @@
 /* line 16, ../sass/global.scss */
 a {
   text-decoration: none;
+  color: #3788cc;
 }
-/* line 18, ../sass/global.scss */
+/* line 19, ../sass/global.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 23, ../sass/global.scss */
+/* line 24, ../sass/global.scss */
 .wrapper {
   max-width: 85.375em;
   margin: 0 auto;
