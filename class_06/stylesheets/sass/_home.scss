@@ -1,6 +1,6 @@
 .intro {
 	width: 100%;
-	background: $med-grey;
+	background: $dark-grey;
 	overflow: hidden;
 	padding: 7em;
 	text-align: center;
@@ -13,6 +13,34 @@
 	text-align: center;
 }
 .intro__button {
-	@include button-style(1.2em, 0.5em, 1.4em);
+	@include button-style(1.5em, 0.5em, 1.4em);
 	margin: 0 auto;
+}
+.teaser {
+	width: 100%;
+	overflow: hidden;
+}
+.teaser__item {
+	width: 50%;
+	height: 25em;
+	float: left;
+	font-size: 1.2em;
+}
+.teaser__article {
+	padding: 4em 6em 4em 8%;
+	&:last-child {
+		padding: 4em 8% 4em 6em;
+	}
+}
+.teaser__image {
+	background: $med-grey;
+	margin: 0;
+}
+.teaser__header {
+	font-size: 1.7em;
+}
+.teaser__button {
+	@include button-style(1em, 0.5em, 1.4em);
+	float: right;
+	margin-top: 2em;
 }

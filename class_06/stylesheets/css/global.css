@@ -31,7 +31,7 @@
 /* line 1, ../sass/_home.scss */
 .intro {
   width: 100%;
-  background: #999999;
+  background: #474747;
   overflow: hidden;
   padding: 7em;
   text-align: center;
@@ -48,12 +48,57 @@
 
 /* line 15, ../sass/_home.scss */
 .intro__button {
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding: 0.5em 1.4em;
   background: #e0e0e0;
   color: #474747;
   width: auto;
   margin: 0 auto;
+}
+
+/* line 19, ../sass/_home.scss */
+.teaser {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 23, ../sass/_home.scss */
+.teaser__item {
+  width: 50%;
+  height: 25em;
+  float: left;
+  font-size: 1.2em;
+}
+
+/* line 29, ../sass/_home.scss */
+.teaser__article {
+  padding: 4em 6em 4em 8%;
+}
+/* line 31, ../sass/_home.scss */
+.teaser__article:last-child {
+  padding: 4em 8% 4em 6em;
+}
+
+/* line 35, ../sass/_home.scss */
+.teaser__image {
+  background: #999999;
+  margin: 0;
+}
+
+/* line 39, ../sass/_home.scss */
+.teaser__header {
+  font-size: 1.7em;
+}
+
+/* line 42, ../sass/_home.scss */
+.teaser__button {
+  font-size: 1em;
+  padding: 0.5em 1.4em;
+  background: #e0e0e0;
+  color: #474747;
+  width: auto;
+  float: right;
+  margin-top: 2em;
 }
 
 /* line 13, ../sass/global.scss */
