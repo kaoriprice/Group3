@@ -1,3 +1,11 @@
-$dark-grey: #999999;
-$med-grey: #d8d8d8;
-$light-grey: #f2f2f2;
+$dark-grey: #474747;
+$med-grey: #999999;
+$light-grey: #e0e0e0;
+
+@mixin button-style($font-size, $hrzt_pad, $vert-pad) {
+	font-size: $font-size;
+	padding: $hrzt_pad $vert-pad;
+	background: $light-grey;
+	color: $dark-grey;
+	width: auto;
+}

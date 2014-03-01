@@ -28,6 +28,34 @@
   line-height: 6em;
 }
 
+/* line 1, ../sass/_home.scss */
+.intro {
+  width: 100%;
+  background: #999999;
+  overflow: hidden;
+  padding: 7em;
+  text-align: center;
+}
+
+/* line 8, ../sass/_home.scss */
+.intro__message {
+  width: 20em;
+  color: white;
+  margin: 0 auto 1.8em auto;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+/* line 15, ../sass/_home.scss */
+.intro__button {
+  font-size: 1.2em;
+  padding: 0.5em 1.4em;
+  background: #e0e0e0;
+  color: #474747;
+  width: auto;
+  margin: 0 auto;
+}
+
 /* line 13, ../sass/global.scss */
 * {
   -webkit-box-sizing: border-box;
