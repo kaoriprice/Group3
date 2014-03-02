@@ -1,0 +1,24 @@
+@import "_shared.scss";
+.classes{
+	padding-bottom:40px;
+}
+.classes__item{
+	width:100%;
+}
+
+.classes__item__description{
+	float:left;
+	width:50%;
+	padding:20px;
+}
+.classes__item--description--button{
+	float:right;
+	background-color:$light-grey;
+	padding:0 10px;
+}
+.classes__item--image{
+	float:left;
+	width:50%;
+	height:231px;
+	background-color:$light-grey;
+}

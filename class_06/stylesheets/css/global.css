@@ -208,3 +208,8 @@ a:hover {
   max-width: 85.375em;
   margin: 0 auto;
 }
+
+/* line 30, ../sass/global.scss */
+.clear {
+  clear: both;
+}
