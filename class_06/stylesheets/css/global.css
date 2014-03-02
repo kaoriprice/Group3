@@ -158,43 +158,47 @@
   overflow: hidden;
   margin-bottom: 30px;
 }
-/* line 4, ../sass/_pricing.scss */
-.pricingBody .mostPopular {
+
+/* line 5, ../sass/_pricing.scss */
+.mostPopular {
   width: 100%;
   display: block;
   overflow: hidden;
 }
-/* line 8, ../sass/_pricing.scss */
-.pricingBody .mostPopular .mostPopular__right {
+/* line 9, ../sass/_pricing.scss */
+.mostPopular .mostPopular__right {
   width: 50%;
   float: right;
   border: 1px solid #ccc;
   text-align: center;
 }
-/* line 15, ../sass/_pricing.scss */
-.pricingBody .pricingContainer {
+
+/* line 16, ../sass/_pricing.scss */
+.pricingContainer {
   float: left;
   width: 50%;
   text-align: center;
   overflow: hidden;
   margin-bottom: 60px;
 }
-/* line 22, ../sass/_pricing.scss */
-.pricingBody .pricingItem {
+
+/* line 23, ../sass/_pricing.scss */
+.pricingItem {
   border: 1px solid #ccc;
 }
-/* line 24, ../sass/_pricing.scss */
-.pricingBody .pricingItem .pricingItem__choose {
+/* line 25, ../sass/_pricing.scss */
+.pricingItem .pricingItem__choose {
   padding: 40px;
   background: #999999;
 }
-/* line 27, ../sass/_pricing.scss */
-.pricingBody .pricingItem .pricingItem__choose .pricingItem__choose__price {
+/* line 28, ../sass/_pricing.scss */
+.pricingItem .pricingItem__choose .pricingItem__choose__price {
   font-size: 42px;
   margin: 0 0 35px 0;
 }
-/* line 33, ../sass/_pricing.scss */
-.pricingBody .pricingItem__choose__button {
+
+/* line 34, ../sass/_pricing.scss */
+.pricingItem__choose__button {
   font-size: 1.5em;
   padding: 0.5em 2.5em;
   background: #e0e0e0;

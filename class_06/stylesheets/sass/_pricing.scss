@@ -1,38 +1,38 @@
 .pricingBody {
 	overflow: hidden;
 	margin-bottom: 30px;
-	.mostPopular {
-		width: 100%;
-		display: block;
-		overflow: hidden;
-		.mostPopular__right {
-			width: 50%;
-			float: right;
-			border: 1px solid #ccc;
-			text-align:center;
-		}
-	}
-	.pricingContainer {
-		float: left;
+}
+.mostPopular {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	.mostPopular__right {
 		width: 50%;
-		text-align: center;
-		overflow: hidden;
-		margin-bottom: 60px;
-	}
-	.pricingItem { 
+		float: right;
 		border: 1px solid #ccc;
-		.pricingItem__choose {
-			padding: 40px;
-			background: $med-grey;
-			.pricingItem__choose__price { 
-				font-size: 42px;
-				margin: 0 0 35px 0;
-			}
+		text-align:center;
+	}
+}
+.pricingContainer {
+	float: left;
+	width: 50%;
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 60px;
+}
+.pricingItem { 
+	border: 1px solid #ccc;
+	.pricingItem__choose {
+		padding: 40px;
+		background: $med-grey;
+		.pricingItem__choose__price { 
+			font-size: 42px;
+			margin: 0 0 35px 0;
 		}
 	}
-	.pricingItem__choose__button {
-		@include button-style(1.5em, 0.5em, 2.5em);
-	}
+}
+.pricingItem__choose__button {
+	@include button-style(1.5em, 0.5em, 2.5em);
 }
 .trail {
 	width: 100%;
