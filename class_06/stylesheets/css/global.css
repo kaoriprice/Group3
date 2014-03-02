@@ -5,23 +5,24 @@
 /* line 1, ../sass/_header.scss */
 .main-header {
   overflow: hidden;
+  border-bottom: 1px solid #ccc;
 }
 
-/* line 4, ../sass/_header.scss */
+/* line 5, ../sass/_header.scss */
 .logo {
   float: left;
   font-size: 2.4em;
   line-height: 2.4em;
 }
 
-/* line 9, ../sass/_header.scss */
+/* line 10, ../sass/_header.scss */
 .main-nav {
   float: right;
   list-style-type: none;
   width: auto;
 }
 
-/* line 14, ../sass/_header.scss */
+/* line 15, ../sass/_header.scss */
 .main-nav__item {
   float: left;
   margin-left: 3em;
@@ -152,24 +153,57 @@
   margin-top: 2em;
 }
 
-/* line 13, ../sass/global.scss */
+/* line 1, ../sass/_staff.scss */
+.staffBody {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+/* line 4, ../sass/_staff.scss */
+.staffBody .staffItem {
+  padding: 30px 30px 30px 0;
+}
+@media (min-width: 767px) {
+  /* line 4, ../sass/_staff.scss */
+  .staffBody .staffItem {
+    width: 50%;
+    float: left;
+  }
+}
+/* line 10, ../sass/_staff.scss */
+.staffBody .staffItem .staffItem__title, .staffBody .staffItem .staffItem__bio {
+  margin: 0;
+}
+/* line 11, ../sass/_staff.scss */
+.staffBody .staffItem .staffItem__position {
+  margin: 5px;
+}
+/* line 12, ../sass/_staff.scss */
+.staffBody .staffItem .staffItem__image {
+  float: left;
+  display: inline-block;
+  background: #999999;
+  padding: 60px;
+  margin: 0 20px 0 0;
+}
+
+/* line 14, ../sass/global.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 16, ../sass/global.scss */
+/* line 17, ../sass/global.scss */
 a {
   text-decoration: none;
   color: #3788cc;
 }
-/* line 19, ../sass/global.scss */
+/* line 20, ../sass/global.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 24, ../sass/global.scss */
+/* line 25, ../sass/global.scss */
 .wrapper {
   max-width: 85.375em;
   margin: 0 auto;
