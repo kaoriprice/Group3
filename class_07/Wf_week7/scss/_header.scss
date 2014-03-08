@@ -1,0 +1,17 @@
+.main-header {
+	overflow: hidden;
+	border-bottom: 1px solid $shade2;
+}
+.logo {
+	line-height: 1.8em;
+}
+.main-nav {
+	.inline-list {
+		float: right;
+		width: auto;	
+	}
+	.main-nav__item {
+		margin-left: 2.4em;
+		line-height: 6em;
+	}
+}

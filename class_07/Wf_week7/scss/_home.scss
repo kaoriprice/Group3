@@ -1,0 +1,46 @@
+.intro {
+	width: 100%;
+	background: darken($shade3, 8%);
+	overflow: hidden;
+	padding: 7em;
+	text-align: center;
+	.intro__button {
+		margin: 0 auto;
+		padding-right: rem-calc(50);
+		padding-left: rem-calc(50);
+	}
+}
+.intro__message {
+	width: 20em;
+	color: $shade1;
+	margin: 0 auto 1.8em auto;
+	font-size: 1.8em;
+	text-align: center;
+}
+.teaser {
+	width: 100%;
+	overflow: hidden;
+}
+.teaser__item {
+	width: 50%;
+	height: 20em;
+	float: left;
+	font-size: 1.2em;
+}
+.teaser__article {
+	padding: 4em 6em 4em 8%;
+	&:last-child {
+		padding: 4em 8% 4em 6em;
+	}
+}
+.teaser__image {
+	background: $shade2;
+	margin: 0;
+}
+.teaser__header {
+	font-size: 1.7em;
+}
+.teaser__button {
+	float: right;
+	margin-top: 2em;
+}
