@@ -14,4 +14,29 @@
 		margin-left: 2.4em;
 		line-height: 6em;
 	}
+	@media(max-width:1050px) {
+		display: none;
+	}
+}
+.mobile-menu {
+	margin: 0;
+	.main-nav__item {
+		list-style: none;
+		font-size: 24px;
+		padding: 10px;
+		text-align: center;
+		border-bottom:1px solid #fff;
+	}
+	.main-nav__link { 
+		color: #fff;
+		&:hover { color: #ccc; }
+	}
+}
+.right-off-canvas-toggle {
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	@media(min-width:1051px) {
+		 display: none;
+	}
 }

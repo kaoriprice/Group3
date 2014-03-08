@@ -9425,6 +9425,46 @@ th.hide-for-touch {
   margin-left: 2.4em;
   line-height: 6em;
 }
+@media (max-width: 1050px) {
+  /* line 8, ../scss/_header.scss */
+  .main-nav {
+    display: none;
+  }
+}
+
+/* line 21, ../scss/_header.scss */
+.mobile-menu {
+  margin: 0;
+}
+/* line 23, ../scss/_header.scss */
+.mobile-menu .main-nav__item {
+  list-style: none;
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+/* line 30, ../scss/_header.scss */
+.mobile-menu .main-nav__link {
+  color: #fff;
+}
+/* line 32, ../scss/_header.scss */
+.mobile-menu .main-nav__link:hover {
+  color: #ccc;
+}
+
+/* line 35, ../scss/_header.scss */
+.right-off-canvas-toggle {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+@media (min-width: 1051px) {
+  /* line 35, ../scss/_header.scss */
+  .right-off-canvas-toggle {
+    display: none;
+  }
+}
 
 /* line 1, ../scss/_footer.scss */
 .main-footer {
