@@ -9563,3 +9563,52 @@ th.hide-for-touch {
     border: none;
   }
 }
+
+/* line 1, ../scss/_pricing.scss */
+.pricing-table {
+  margin-top: 40px;
+  position: relative;
+}
+/* line 4, ../scss/_pricing.scss */
+.pricing-table .popular {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -46px;
+  border: 1px solid #ccc;
+}
+
+/* line 12, ../scss/_pricing.scss */
+.trail {
+  width: 100%;
+  clear: both;
+  text-align: center;
+  padding-top: 30px;
+  overflow: hidden;
+}
+/* line 18, ../scss/_pricing.scss */
+.trail .trail__text {
+  display: block;
+  font-size: 18px;
+  margin-right: 30px;
+  text-align: center;
+}
+/* line 24, ../scss/_pricing.scss */
+.trail .button {
+  display: block;
+  padding: 20px;
+}
+
+/* line 29, ../scss/_pricing.scss */
+.businessPlan {
+  margin: 0 auto;
+  font-size: 24px;
+  max-width: 550px;
+}
+/* line 33, ../scss/_pricing.scss */
+.businessPlan .businessPlan__content {
+  margin-top: 70px;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}

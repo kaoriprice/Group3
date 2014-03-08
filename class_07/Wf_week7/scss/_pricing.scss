@@ -1,0 +1,40 @@
+.pricing-table {
+	margin-top: 40px;
+	position: relative;
+	.popular { 
+		position: absolute;
+		left:0;
+		right:0;
+		top: -46px;
+		border: 1px solid #ccc;
+	}
+}
+.trail {
+	width: 100%;
+	clear:both;
+	text-align: center;
+	padding-top: 30px;
+	overflow: hidden;
+	.trail__text { 
+		display: block;
+		font-size: 18px;
+		margin-right: 30px;
+		text-align: center;
+	}
+	.button {
+		display:block;
+		padding: 20px;
+	}
+}
+.businessPlan {
+	margin: 0 auto;
+	font-size: 24px;
+	max-width: 550px;
+	.businessPlan__content { 
+		margin-top: 70px;
+		padding: 20px;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+
+	}
+}
