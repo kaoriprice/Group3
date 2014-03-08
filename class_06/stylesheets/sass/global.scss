@@ -11,6 +11,8 @@
 @import "_home.scss";
 @import "_pricing.scss";
 @import "_staff.scss";
+@import "_classes.scss";
+@import "_media.scss";
 
 * {
 	@include box-sizing(border-box);
@@ -26,6 +28,7 @@ a {
 .wrapper {	
 	max-width: 85.375em;
 	margin: 0 auto;
+	padding: 0 5%;
 }
 
 .clear{
