@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 300, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.2.0/";
@@ -9530,4 +9531,35 @@ th.hide-for-touch {
 .teaser__button {
   float: right;
   margin-top: 2em;
+}
+
+/* line 2, ../scss/_staff.scss */
+.staffBody .staffItem__title, .staffBody .staffItem__bio {
+  margin: 0;
+}
+/* line 3, ../scss/_staff.scss */
+.staffBody .staffItem__position {
+  margin: 5px;
+}
+/* line 4, ../scss/_staff.scss */
+.staffBody .staffItem__image {
+  float: left;
+  display: inline-block;
+  margin-right: 20px;
+}
+/* line 9, ../scss/_staff.scss */
+.staffBody .staffItem {
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  /* line 9, ../scss/_staff.scss */
+  .staffBody .staffItem {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 12, ../scss/_staff.scss */
+  .staffBody .staffItem:last-child {
+    border: none;
+  }
 }
