@@ -13,18 +13,18 @@
   <div class="inner-wrap">
       <header class="main-header">
         <div class="row">
-          <div class="large-5 columns">
+          <div class="large-4 columns">
             <h1><a href="../index.html" class="logo">Hollywood Fitness</a></h1>
           </div>
-          <div class="large-7 columns">
+          <div class="large-8 columns">
             <nav class="main-nav">
               <ul class="inline-list">
-                <li class="main-nav__item"><a href="pricing.html">Pricing</a></li>
-                <li class="main-nav__item"><a href="#">Features</a></li>
-                <li class="main-nav__item"><a href="classes.html">Classes</a></li>
-                <li class="main-nav__item"><a href="staff.html">Staff</a></li>
-                <li class="main-nav__item"><a href="media.html">Media</a></li>
-                <li class="main-nav__item"><a href="#">Blog</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="pricing.html">Pricing</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="#">Features</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="classes.html">Classes</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="staff.html">Staff</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="media.html">Media</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="#">Blog</a></li>
               </ul>
             </nav>
           </div>
@@ -43,13 +43,11 @@
         </aside>
       </header>
 
-    <main class="classes__content">
+    <main class="classes content">
       <div class="row">
         
           <div class="classes__intro large-12 columns">
-            <h1 class="classes__intro__header">
-              Etiam vitae pellentesque mauris, vel sollicitudin mi.
-            </h1>
+            <h1 class="page-title">Classes</h1>
             <p class="classes__intro__content">
               Donec condimentum enim ut velit elementum tristique. Quisque commodo ac lacus ut consectetur. Proin commodo gravida placerat. Sed convallis orci nec sagittis blandit. Nunc ultricies eu sapien a vulputate.
             </p>
@@ -62,19 +60,19 @@
               <p class="class__item__content">
                 Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue.
               </p>
-              <a href="" class="class__item__button medium radius button">More Details</a>
+              <a href="" data-reveal-id="yogaModal" class="class__item__button medium radius button">More Details</a>
             </article>
-            <img class="class__item__image" src="" alt="">
+            <p><img class="class__item__image" src="" alt=""></p>
           </div>
           
           <div class="class">
-            <img class="class__item__image" src="" alt="">
+            <p><img class="class__item__image" src="" alt=""></p>
             <article class="class__item">
               <h3 class="class__item__header">Zumba</h3>
               <p class="class__item__content">
                 Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue.
               </p>
-              <a href="" class="class__item__button medium radius button">More Details</a>
+              <a href="" data-reveal-id="zumbaModal" class="class__item__button medium radius button">More Details</a>
             </article>
           </div>
 
@@ -84,12 +82,22 @@
               <p class="class__item__content">
                 Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue.
               </p>
-              <a href="" class="class__item__button medium radius button">More Details</a>
+              <a href="" data-reveal-id="absModal" class="class__item__button medium radius button">More Details</a>
             </article>
-            <img class="class__item__image" src="" alt="">
+            <p><img class="class__item__image" src="" alt=""></p>
           </div>
         </div>
       </div>
+
+      <div class="reveal-modal-bg" style="display: none"></div>
+      <div id="yogaModal" class="reveal-modal" data-reveal>
+        <h2 class="modal__title">Welcome to Yoga</h2>
+        <p class="modal__image"><img src="" alt=""></p>
+        <p class="teacher">Teacher: A Name Here</p>
+        <p>Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue. Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue.</p>
+        <a class="close-reveal-modal">&#215;</a>
+      </div>
+
     </main>
 
     <footer class="main-footer">

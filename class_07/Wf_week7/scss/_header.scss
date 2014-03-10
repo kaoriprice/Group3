@@ -1,10 +1,14 @@
 .main-header {
 	overflow: hidden;
 	border-bottom: 1px solid $shade2;
+	padding: rem-calc(7) 0;
 }
 .logo {
-	line-height: 1.8em;
+	display: block;
+	text-indent: -9999px;
 	margin: 0;
+	background: url(../images/logo.jpg) no-repeat;
+	height: rem-calc(75);
 }
 .main-nav {
 	.inline-list {
@@ -12,11 +16,11 @@
 		width: auto;	
 	}
 	.main-nav__item {
-		margin: rem-calc(24) 0 rem-calc(24) rem-calc(36);
+		margin: rem-calc(24) 0 rem-calc(24) rem-calc(32);
 	}
 	.main-nav__link {
 		display: block;
-		padding: rem-calc(7) rem-calc(10);
+		padding: rem-calc(7) rem-calc(14);
 		&:hover {
 			background: $primary-color;
 			color: white;

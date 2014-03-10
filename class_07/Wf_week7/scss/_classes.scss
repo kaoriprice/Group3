@@ -1,24 +1,17 @@
-.classes__intro__header{
-	font-size: 1.7em;
-	font-weight:bold;
-}
-.classes__intro__content{
-	font-size: 1em;
-	line-height:1.5em;
-}
 .class{
 	width:100%;
 	height:20em;
 	display:table;
 	&:last-child{
-		padding-bottom:20px;
+		padding-bottom: rem-calc(20);
 	}
 }
 .class__item{
 	display:table-cell;
 	vertical-align:middle;
 	width:50%;
-	padding:20px;
+	padding: 0 rem-calc(40);
+	background: lighten($shade1, 3%);
 }
 .class__item__header{
 	font-size: 1.7em;
@@ -37,5 +30,20 @@
 	height:20em;
 	width:100%;
 	float:right;
-	background-color:#f0f0f0;
+	background-color: $shade2;
+}
+
+/************* MODAL *************/
+.modal__title {
+	margin-bottom: rem-calc(20);
+}
+.modal__image {
+	width: rem-calc(200);
+	height: rem-calc(250);
+	float: left;
+	margin-right: rem-calc(30);
+	background: $shade3;
+}
+.teacher {
+	font-size: 1.4em;
 }
