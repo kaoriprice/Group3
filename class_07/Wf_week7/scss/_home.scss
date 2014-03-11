@@ -47,7 +47,7 @@
 	float: left;
 	font-size: 1.2em;
 	&:first-child {
-		border-bottom: 1px solid $shade2;
+		border-bottom: 2px solid darken($shade1, 4%);
 	}
 	@media(min-width:768px) {
 		width: 50%;
