@@ -9432,13 +9432,18 @@ th.hide-for-touch {
 .main-nav .main-nav__link {
   display: block;
   padding: 0.4375rem 0.875rem;
-}
-/* line 24, ../scss/_header.scss */
-.main-nav .main-nav__link:hover {
-  background: #f04124;
-  color: white;
   -webkit-border-radius: 4px;
   border-radius: 4px;
+}
+/* line 25, ../scss/_header.scss */
+.main-nav .main-nav__link:hover {
+  background: #f25e45;
+  color: white;
+}
+/* line 30, ../scss/_header.scss */
+.main-nav .active {
+  background: #f04124;
+  color: white;
 }
 @media (max-width: 1050px) {
   /* line 13, ../scss/_header.scss */
@@ -9447,37 +9452,37 @@ th.hide-for-touch {
   }
 }
 
-/* line 34, ../scss/_header.scss */
+/* line 38, ../scss/_header.scss */
 .mobile-menu {
   margin: 0;
 }
-/* line 36, ../scss/_header.scss */
+/* line 40, ../scss/_header.scss */
 .mobile-menu .main-nav__item {
   list-style: none;
   font-size: 1.5em;
   text-align: center;
   border-bottom: 1px solid #fff;
 }
-/* line 42, ../scss/_header.scss */
+/* line 46, ../scss/_header.scss */
 .mobile-menu .main-nav__link {
   color: #fff;
   width: 100%;
   padding: 0.625rem 0;
   display: block;
 }
-/* line 48, ../scss/_header.scss */
+/* line 52, ../scss/_header.scss */
 .mobile-menu .main-nav__link:hover, .mobile-menu .main-nav__link:visited {
   background: #f04124;
 }
 
-/* line 51, ../scss/_header.scss */
+/* line 55, ../scss/_header.scss */
 .right-off-canvas-toggle {
   position: absolute;
   right: 20px;
   top: 30px;
 }
 @media (min-width: 1051px) {
-  /* line 51, ../scss/_header.scss */
+  /* line 55, ../scss/_header.scss */
   .right-off-canvas-toggle {
     display: none;
   }

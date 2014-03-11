@@ -21,11 +21,15 @@
 	.main-nav__link {
 		display: block;
 		padding: rem-calc(7) rem-calc(14);
+		@include radius();
 		&:hover {
-			background: $primary-color;
+			background: lighten($primary-color, 7%);
 			color: white;
-			@include radius();
 		}
+	}
+	.active {
+		background: $primary-color;
+		color: white;
 	}
 	@media(max-width:1050px) {
 		display: none;
