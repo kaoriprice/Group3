@@ -9547,9 +9547,10 @@ th.hide-for-touch {
 /* line 11, ../scss/_home.scss */
 .home {
   padding: 0;
+  max-width: 1600px;
 }
 
-/* line 14, ../scss/_home.scss */
+/* line 15, ../scss/_home.scss */
 .intro {
   width: 100%;
   background: #525252;
@@ -9558,19 +9559,19 @@ th.hide-for-touch {
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* line 14, ../scss/_home.scss */
+  /* line 15, ../scss/_home.scss */
   .intro {
     padding: 3em;
   }
 }
-/* line 23, ../scss/_home.scss */
+/* line 24, ../scss/_home.scss */
 .intro .intro__button {
   margin: 0 auto;
   padding-right: 3.125rem;
   padding-left: 3.125rem;
 }
 
-/* line 29, ../scss/_home.scss */
+/* line 30, ../scss/_home.scss */
 .intro__message {
   max-width: 20em;
   width: 80%;
@@ -9580,38 +9581,38 @@ th.hide-for-touch {
   text-align: center;
 }
 @media (max-width: 768px) {
-  /* line 29, ../scss/_home.scss */
+  /* line 30, ../scss/_home.scss */
   .intro__message {
     font-size: 1.5em;
   }
 }
 
-/* line 40, ../scss/_home.scss */
+/* line 41, ../scss/_home.scss */
 .teaser {
   width: 100%;
   overflow: hidden;
 }
 
-/* line 44, ../scss/_home.scss */
+/* line 45, ../scss/_home.scss */
 .teaser__item {
   width: 100%;
   height: auto;
   float: left;
   font-size: 1.2em;
 }
-/* line 49, ../scss/_home.scss */
+/* line 50, ../scss/_home.scss */
 .teaser__item:first-child {
   border-bottom: 2px solid #e4e4e4;
 }
 @media (min-width: 768px) {
-  /* line 44, ../scss/_home.scss */
+  /* line 45, ../scss/_home.scss */
   .teaser__item {
     width: 50%;
     height: 20em;
   }
 }
 
-/* line 57, ../scss/_home.scss */
+/* line 58, ../scss/_home.scss */
 .teaser__article {
   display: table-cell;
   padding: 6%;
@@ -9620,24 +9621,24 @@ th.hide-for-touch {
   overflow: hidden;
 }
 
-/* line 64, ../scss/_home.scss */
+/* line 65, ../scss/_home.scss */
 .teaser__image {
   background: #bbbbbb;
   margin: 0;
 }
 @media (max-width: 768px) {
-  /* line 64, ../scss/_home.scss */
+  /* line 65, ../scss/_home.scss */
   .teaser__image {
     display: none;
   }
 }
 
-/* line 71, ../scss/_home.scss */
+/* line 72, ../scss/_home.scss */
 .teaser__header {
   font-size: 1.7em;
 }
 
-/* line 74, ../scss/_home.scss */
+/* line 75, ../scss/_home.scss */
 .teaser__button {
   float: right;
   margin-top: 2em;
