@@ -9557,57 +9557,87 @@ th.hide-for-touch {
   padding: 7em;
   text-align: center;
 }
-/* line 20, ../scss/_home.scss */
+@media (max-width: 768px) {
+  /* line 14, ../scss/_home.scss */
+  .intro {
+    padding: 3em;
+  }
+}
+/* line 23, ../scss/_home.scss */
 .intro .intro__button {
   margin: 0 auto;
   padding-right: 3.125rem;
   padding-left: 3.125rem;
 }
 
-/* line 26, ../scss/_home.scss */
+/* line 29, ../scss/_home.scss */
 .intro__message {
-  width: 20em;
+  max-width: 20em;
+  width: 80%;
   color: #eeeeee;
   margin: 0 auto 1.8em auto;
   font-size: 1.8em;
   text-align: center;
 }
+@media (max-width: 768px) {
+  /* line 29, ../scss/_home.scss */
+  .intro__message {
+    font-size: 1.5em;
+  }
+}
 
-/* line 33, ../scss/_home.scss */
+/* line 40, ../scss/_home.scss */
 .teaser {
   width: 100%;
   overflow: hidden;
 }
 
-/* line 37, ../scss/_home.scss */
+/* line 44, ../scss/_home.scss */
 .teaser__item {
-  width: 50%;
-  height: 20em;
+  width: 100%;
+  height: auto;
   float: left;
   font-size: 1.2em;
 }
-
-/* line 43, ../scss/_home.scss */
-.teaser__article {
-  padding: 4em 6em 4em 8%;
-}
-/* line 45, ../scss/_home.scss */
-.teaser__article:last-child {
-  padding: 4em 8% 4em 6em;
-}
-
 /* line 49, ../scss/_home.scss */
+.teaser__item:first-child {
+  border-bottom: 1px solid #bbbbbb;
+}
+@media (min-width: 768px) {
+  /* line 44, ../scss/_home.scss */
+  .teaser__item {
+    width: 50%;
+    height: 20em;
+  }
+}
+
+/* line 57, ../scss/_home.scss */
+.teaser__article {
+  display: table-cell;
+  padding: 6%;
+  vertical-align: middle;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 64, ../scss/_home.scss */
 .teaser__image {
   background: #bbbbbb;
   margin: 0;
 }
+@media (max-width: 768px) {
+  /* line 64, ../scss/_home.scss */
+  .teaser__image {
+    display: none;
+  }
+}
 
-/* line 53, ../scss/_home.scss */
+/* line 71, ../scss/_home.scss */
 .teaser__header {
   font-size: 1.7em;
 }
 
-/* line 56, ../scss/_home.scss */
+/* line 74, ../scss/_home.scss */
 .teaser__button {
   float: right;
   margin-top: 2em;
@@ -9719,56 +9749,66 @@ th.hide-for-touch {
 .class {
   width: 100%;
   height: 20em;
-  display: table;
 }
-/* line 5, ../scss/_classes.scss */
+/* line 4, ../scss/_classes.scss */
 .class:last-child {
   padding-bottom: 1.25rem;
 }
 
-/* line 9, ../scss/_classes.scss */
+/* line 8, ../scss/_classes.scss */
 .class__item {
   display: table-cell;
   vertical-align: middle;
-  width: 50%;
+  height: 100%;
   padding: 0 2.5rem;
   background: #f6f6f6;
 }
+@media (min-width: 768px) {
+  /* line 8, ../scss/_classes.scss */
+  .class__item {
+    width: 50%;
+  }
+}
 
-/* line 16, ../scss/_classes.scss */
+/* line 18, ../scss/_classes.scss */
 .class__item__header {
   font-size: 1.7em;
   font-weight: bold;
   display: inline;
 }
 
-/* line 21, ../scss/_classes.scss */
+/* line 23, ../scss/_classes.scss */
 .class__item__content {
   font-size: 1em;
   line-height: 1.5em;
 }
 
-/* line 25, ../scss/_classes.scss */
+/* line 27, ../scss/_classes.scss */
 .class__item__button {
   float: right;
 }
 
-/* line 28, ../scss/_classes.scss */
+/* line 30, ../scss/_classes.scss */
 .class__item__image {
-  display: table-cell;
-  height: 20em;
+  height: 100%;
   width: 100%;
-  float: right;
   background-color: #bbbbbb;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  /* line 30, ../scss/_classes.scss */
+  .class__item__image {
+    width: 50%;
+  }
 }
 
 /************* MODAL *************/
-/* line 37, ../scss/_classes.scss */
+/* line 41, ../scss/_classes.scss */
 .modal__title {
   margin-bottom: 1.25rem;
 }
 
-/* line 40, ../scss/_classes.scss */
+/* line 44, ../scss/_classes.scss */
 .modal__image {
   width: 12.5rem;
   height: 15.625rem;
@@ -9777,7 +9817,7 @@ th.hide-for-touch {
   background: #666666;
 }
 
-/* line 47, ../scss/_classes.scss */
+/* line 51, ../scss/_classes.scss */
 .teacher {
   font-size: 1.4em;
 }

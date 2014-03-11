@@ -17,6 +17,9 @@
 	overflow: hidden;
 	padding: 7em;
 	text-align: center;
+	@media(max-width:768px) {
+		padding: 3em;
+	}
 	.intro__button {
 		margin: 0 auto;
 		padding-right: rem-calc(50);
@@ -24,31 +27,46 @@
 	}
 }
 .intro__message {
-	width: 20em;
+	max-width: 20em;
+	width: 80%;
 	color: $shade1;
 	margin: 0 auto 1.8em auto;
 	font-size: 1.8em;
 	text-align: center;
+	@media(max-width:768px) {
+		font-size: 1.5em;
+	}
 }
 .teaser {
 	width: 100%;
 	overflow: hidden;
 }
 .teaser__item {
-	width: 50%;
-	height: 20em;
+	width: 100%;
+	height: auto;
 	float: left;
 	font-size: 1.2em;
+	&:first-child {
+		border-bottom: 1px solid $shade2;
+	}
+	@media(min-width:768px) {
+		width: 50%;
+		height: 20em;
+	}
 }
 .teaser__article {
-	padding: 4em 6em 4em 8%;
-	&:last-child {
-		padding: 4em 8% 4em 6em;
-	}
+	display: table-cell;
+	padding: 6%;
+	vertical-align: middle;
+	float: left;
+	overflow: hidden;
 }
 .teaser__image {
 	background: $shade2;
 	margin: 0;
+	@media(max-width:768px) {
+		display: none;
+	}
 }
 .teaser__header {
 	font-size: 1.7em;

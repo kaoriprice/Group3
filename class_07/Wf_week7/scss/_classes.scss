@@ -1,7 +1,6 @@
 .class{
 	width:100%;
 	height:20em;
-	display:table;
 	&:last-child{
 		padding-bottom: rem-calc(20);
 	}
@@ -9,9 +8,12 @@
 .class__item{
 	display:table-cell;
 	vertical-align:middle;
-	width:50%;
+	height: 100%;
 	padding: 0 rem-calc(40);
 	background: lighten($shade1, 3%);
+	@media(min-width:768px) {
+		width: 50%;
+	}
 }
 .class__item__header{
 	font-size: 1.7em;
@@ -26,11 +28,13 @@
 	float:right;
 }
 .class__item__image{
-	display:table-cell;
-	height:20em;
+	height: 100%;
 	width:100%;
-	float:right;
 	background-color: $shade2;
+	margin: 0;
+	@media(min-width:768px) {
+		width: 50%;
+	}
 }
 
 /************* MODAL *************/
