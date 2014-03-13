@@ -1,0 +1,44 @@
+var comments = {
+"comments" : [
+	{
+		"el": ".logo",
+		"title" : "Logo",
+		"comment": "The logo image is an jpg file, which ensures that the logo displays crisply even on high resolution displays. It is the logo that's been carried over from the original Hollywood Fitness website.</p>"
+	},
+	{
+		"el": "#nav",
+		"title" : "Navigation",
+		"comment": "<p>Navigation style changes depending on the viewport size. On a bigger screen, all the navigation buttons are visible. For a amaller screen, they collapse to a single button \"Menu\". When the Menu button is clicked, the whole navigation options slide out from the right hand side.</p><p>When all the navigation buttons are shown, the selected state is indicated by the brand color (red), and the hover state a lightly ligher version of the red.</p>"
+	},
+	{
+		"el": ".page-title",
+		"title" : "Page title",
+		"comment": "<p>The page title is located at the top left corner to clearly indicate which page the viewer is on. The title should match the navigation naming, i.e. the tile of the page that you land when you click the \"Stuff\" should be \"Stuff.\"</p>"
+	},
+	{
+		"el": ".page-description",
+		"title" : "Page description",
+		"comment": "<p>The page description should be in *gray*, *font size* in *font name*. It should be between *30 words* to *50 words*.</p>"
+	},
+	{
+		"el": ".hero-image",
+		"title" : "Hero image",
+		"comment": "<p>The hero image should cover the entire width of the screen.</p>"
+	}
+	{
+		"el": ".hero-message",
+		"title" : "Hero message",
+		"comment": "<p>The hero message should be *white*, *font size* in *font name*. It should be between *30 words* to *50 words*. .</p>"
+	}
+	{
+		"el": ".content-header",
+		"title" : "Header of a content",
+		"comment": "<p>The header of a content should be *white*, *font size* in *font name*. It should be between *30 words* to *50 words*. .</p>"
+	}
+	{
+		"el": ".content-body",
+		"title" : "Body message",
+		"comment": "<p>The hero message should be *white*, *font size* in *font name*. It should be between *30 words* to *50 words*. .</p>"
+	}
+]
+};

@@ -1,34 +1,109 @@
 var comments = {
 "comments" : [
 	{
-		"el": "header[role=banner]",
-		"title" : "Masthead",
-		"comment": "The main header of the site doesn't take up too much screen real estate in order to keep the focus on the core content. It's using a linear CSS gradient instead of a background image to give greater design flexibility and reduce HTTP requests."
-	},
-	{
 		"el": ".logo",
 		"title" : "Logo",
-		"comment": "The logo image is an SVG file, which ensures that the logo displays crisply even on high resolution displays. A PNG fallback is provided for browsers that don't support SVG images.</p><p>Further reading: <a href=\"http://bradfrostweb.com/blog/mobile/hi-res-optimization/\">Optimizing Web Experiences for High Resolution Screens</a></p>"
+		"comment": "The logo image is an jpg file, which ensures that the logo displays crisply even on high resolution displays. It is the logo that's been carried over from the original Hollywood Fitness website.</p>"
 	},
 	{
-		"el": "#nav",
+		"el": ".header__bg",
+		"title" : "Header background",
+		"comment": "<p>The header background should be *color, tec*.</p>"
+	},
+	{
+		"el": ".global__nav",
 		"title" : "Navigation",
-		"comment": "<p>Navigation for adaptive web experiences can be tricky. Top navigations are typical on desktop sites, but mobile screen sizes don't give us the luxury of space. We're dealing with this situation by creating a simple menu anchor that toggles the main navigation on small screens. This is just one method. <a href=\"http://bagcheck.com/\">Bagcheck</a> and <a href=\"http://contentsmagazine.com/\">Contents Magazine</a> add an anchor in the header that jumps users to the navigation which is placed in the footer. This solution works well because it doesn't require any Javascript in order to work. Other methods exist too. For example, <a href=\"http://m.espn.com\">ESPN's mobile navigation</a> overlays the main content of the page.</p><p>The nav is only hidden when a certain level of javascript is supported in order to ensure that users with little/poor javascript support can still access the navigation. Once the screen size is large enough to accommodate the nav, we show the main navigation links and hide the menu anchor.<p><p>See also: <a href=\"http://bradfrostweb.com/blog/web/responsive-nav-patterns/\">Responsive Navigation Patterns</a></p>"
+		"comment": "<p>Navigation style changes depending on the viewport size. On a bigger screen, all the navigation buttons are visible. For a amaller screen, they collapse to a single button \"Menu\". When the Menu button is clicked, the whole navigation options slide out from the right hand side.</p><p>When all the navigation buttons are shown, the selected state is indicated by the brand color (red), and the hover state a lightly ligher version of the red.</p>"
 	},
 	{
-		"el": ".search-form",
-		"title" : "Search",
-		"comment": "<p>Search is an incredibly important priority, especially for mobile. It is a great idea to give users the ability to jump directly to what they are looking for without forcing them to wade through your site's navigation. Check out the <a href=\"http://burton.com\">Burton</a> and <a href=\"http://yelp.com\">Yelp</a> mobile sites for great examples of experiences that prioritize search.</p><p>We're also using the <a href=\"http://dev.w3.org/html5/markup/input.search.html\">HTML5 search input type</a>, which is great for mobile devices that can <a href=\"http://diveintohtml5.info/forms.html\">bring up the appropriate virtual keyboard</a> for many smartphones. And like the main header navigation, we're hiding the search form on small screens to save space. Clicking the search anchor toggles the form. </p>"
+		"el": ".body__bg",
+		"title" : "Body background",
+		"comment": "<p>The body background should be *color, tec*.</p>"
 	},
 	{
-		"el": ".article-header h1",
-		"title" : "Article Header",
-		"comment": "<p>The article header should be no more than 140 characters. </p>"
+		"el": ".hero--image",
+		"title" : "Hero image",
+		"comment": "<p>The hero image should cover the entire width of the screen.</p>"
 	},
 	{
-		"el": ".block-hero",
-		"title" : "Hero",
-		"comment": "<p>The hero area highlights one major story using a large image and a captivating headline.</p>"
+		"el": ".hero--message",
+		"title" : "Hero message",
+		"comment": "<p>The hero message should be *color*, *font size* in *font type*. It should be between *30 words* to *50 words*. .</p>"
+	},
+	{
+		"el": ".page__top--title",
+		"title" : "Page title",
+		"comment": "<p>The page title is located at the top left corner to clearly indicate which page the viewer is on. The title should match the navigation naming, i.e. the tile of the page that you land when you click the \"Stuff\" should be \"Stuff.\"</p>"
+	},
+	{
+		"el": ".page__top--content",
+		"title" : "Page description",
+		"comment": "<p>The page description should be in *gray*, *font size* in *font name*. It should be between *30 words* to *50 words*.</p>"
+	},
+	{
+		"el": ".main--header1",
+		"title" : "Header 1",
+		"comment": "<p>The header 1 is the biggest header used on the main content of the page. It should be *color*, *font size* in *font type*.</p>"
+	},
+	{
+		"el": ".main--header2",
+		"title" : "Header 2",
+		"comment": "<p>The header 2 is the second biggest header used on the main content of the page. It should be *color*, *font size* in *font type*.</p>"
+	},
+	{
+		"el": ".main--content",
+		"title" : "Content text",
+		"comment": "<p>The content text should be *color*, *font size* in *font type*. The line height should be *line height*.</p>"
+	},
+	{
+		"el": ".sign-up--button",
+		"title" : "Sign up button",
+		"comment": "<p>The sign up button should be a rounded, *red* button with a plenty of padding around the text.</p>"
+	},
+	{
+		"el": ".nav--button",
+		"title" : "Navigation button",
+		"comment": "<p>The navigation button has slightly rounded corners. It should be in *red* and when it's hovered, it changes to a darker *red*.</p>"
+	},
+	{
+		"el": ".footer__bg",
+		"title" : "Footer background",
+		"comment": "<p>The fotter background should be *color, etc.*.</p>"
+	},
+	{
+		"el": ".footer--header",
+		"title" : "Header used in the footer",
+		"comment": "<p>Headers used in the footer should be in *gray*, *font size* in *font name*. The line-height should be *line_height*.</p>"
+	},
+	{
+		"el": ".form__input--box",
+		"title" : "Input box",
+		"comment": "<p>The input box of a form should have *padding*/*margin*, and has a *border* around it. </p>"
+	},
+	{
+		"el": ".form__input--name",
+		"title" : "Input name",
+		"comment": "<p>The form input name should be placed *here* of the form. It should be *color*, *font size* in *font type*. The line-height should be *line height*. </p>"
+	},
+	{
+		"el": ".form__input--name",
+		"title" : "Inputfield name",
+		"comment": "<p>The form input name should be placed *here* of the form. It should be *color*, *font size* in *font type*. The line-height should be *line height*. </p>"
+	},
+	{
+		"el": ".form__input--button",
+		"title" : "Form button",
+		"comment": "<p>The form button should have *radius* border radius. IT should be *color*. </p>"
+	},
+	{
+		"el": ".form__input--button--text",
+		"title" : "Text of a form button",
+		"comment": "<p>The text used on a button should be *size* in *font style*. </p>"
+	},
+	{
+		"el": ".footer--bg",
+		"title" : "Footer background",
+		"comment": "<p>The fotter background should be *color, etc.*.</p>"
 	}
 ]
 };
