@@ -8,7 +8,7 @@ var comments = {
 	{
 		"el": ".header__bg",
 		"title" : "Header background",
-		"comment": "<p>The header background should be *color*.</p>"
+		"comment": "<p>The header background should be *color, tec*.</p>"
 	},
 	{
 		"el": ".global__nav",
