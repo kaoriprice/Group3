@@ -1,13 +1,13 @@
 /*
 Syntax error: Undefined mixin 'background-opacity'.
-        on line 3 of /Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss, in `background-opacity'
-        from line 3 of /Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss
+        on line 4 of /Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss, in `background-opacity'
+        from line 4 of /Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss
 
 1: /Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss
 
 Backtrace:
-/Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss:3:in `background-opacity'
-/Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss:3
+/Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss:4:in `background-opacity'
+/Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss:4
 /Library/Ruby/Gems/1.8/gems/sass-3.2.11/lib/sass/../sass/tree/visitors/perform.rb:253:in `visit_mixin'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.11/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.11/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
@@ -81,4 +81,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'background-opacity'.\A         on line 3 of /Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss, in `background-opacity'\A         from line 3 of /Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss\A \A 1: /Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss"; }
+  content: "Syntax error: Undefined mixin 'background-opacity'.\A         on line 4 of /Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss, in `background-opacity'\A         from line 4 of /Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss\A \A 1: /Users/Topher/Group3/FinalProject/patternlab-php/source/foundation/scss/global.scss"; }

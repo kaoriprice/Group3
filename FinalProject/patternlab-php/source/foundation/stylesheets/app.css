@@ -9525,8 +9525,13 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
+/* line 1, ../scss/global.scss */
+.main-nav {
+  float: right;
+}
+
 /*********** Header ********/
-/* line 2, ../scss/global.scss */
+/* line 3, ../scss/global.scss */
 .header {
   background: #de2d0f;
   /* The Fallback */
@@ -9534,26 +9539,40 @@ th.hide-for-touch {
   height: 6em;
 }
 
-/* line 6, ../scss/global.scss */
+/* line 7, ../scss/global.scss */
 .logo {
   margin-top: .5em;
 }
 
-/* line 7, ../scss/global.scss */
-.main-nav {
-  float: right;
+/* line 9, ../scss/global.scss */
+.mainNavigation .main-nav {
   margin-top: 1.8em;
 }
-/* line 10, ../scss/global.scss */
-.main-nav a {
+/* line 11, ../scss/global.scss */
+.mainNavigation .main-nav a {
   color: #fff;
   font-size: 1.2em;
   margin-left: .7em;
 }
 
 /*********** Footer ********/
-/* line 17, ../scss/global.scss */
-.footer {
+/* line 19, ../scss/global.scss */
+.upper-footer {
   background: #eee;
   padding: 2em;
+}
+
+/* line 23, ../scss/global.scss */
+.lower-footer {
+  background: #aaa;
+  color: #fff;
+  padding: .8em;
+}
+/* line 27, ../scss/global.scss */
+.lower-footer a {
+  color: #fff;
+}
+/* line 29, ../scss/global.scss */
+.lower-footer a:hover {
+  color: #de2d0f;
 }

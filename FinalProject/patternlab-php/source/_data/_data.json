@@ -22,6 +22,10 @@
 		"rectangle": {
 			"src": "http://placeimg.com/400/300/tech",
 			"alt": "Rectangle"
+		},
+		"map" : {
+			"src": "../../images/map.png",
+			"alt": "map"
 		}
 	},
 	"headline" : {
@@ -44,8 +48,8 @@
 		"lasti": "W"
 	},
 	"year" : {
-		"long": "2013",
-		"short": "13"
+		"long": "2014",
+		"short": "14"
 	},
 	"month" : {
 		"long": "February",
@@ -75,5 +79,15 @@
 	"author" : {
 		"first-name": "Author",
 		"last-name": "Name"
-	}
+	},
+	"map" : {
+		"src": "../../images/map.png",
+		"alt": "16x9 Image"
+	},
+	"map-link" : "https://www.google.com/maps/place/Hollywood+Fitness/@45.5403938,-122.6095591,17z/data=!3m1!4b1!4m2!3m1!1s0x5495a12f3146e55b:0xbefafee517b12398",
+	"street" : "5223 NE Sandy Blvd.",
+	"city" : "Portland",
+	"state" : "OR",
+	"postal-code" : "97213",
+	"phone" : "503-281-4776"
 }
