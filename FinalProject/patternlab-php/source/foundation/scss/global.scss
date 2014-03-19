@@ -1,0 +1,31 @@
+.main-nav{ float: right;}
+/*********** Header ********/
+.header { 
+	@include background-opacity($primaryRed, 0.8);
+	height: 6em;
+}
+.logo { margin-top: .5em;}
+.mainNavigation { 
+	.main-nav {
+		margin-top: 1.8em;
+		a {
+			color: #fff;
+			font-size: 1.2em;
+			margin-left: .7em;
+		}
+	}
+}
+/*********** Footer ********/
+.upper-footer {
+	background: #eee;
+	padding: 2em;
+}
+.lower-footer {
+	background: #aaa;
+	color: #fff;
+	padding: .8em;
+	a { 
+		color: #fff;
+		&:hover { color: $primaryRed;}
+	}
+}
