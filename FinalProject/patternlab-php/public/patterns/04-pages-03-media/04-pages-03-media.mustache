@@ -1,1 +1,16 @@
-MEDIA PAGE :D
+&lt;div class=&quot;page&quot; id=&quot;page&quot;&gt;
+	{{&gt; organisms-header }}
+	&lt;div role=&quot;main&quot;&gt;
+		&lt;h1 class=&quot;page-title&quot;&gt;{{ page-title }}&lt;/h1&gt;
+		&lt;div class=&quot;g g-3up&quot;&gt;
+			{{img.square}}
+			{{# media__item}}
+				&lt;section class=&quot;img&quot;&gt;
+					{{img.landscape-4x3}}
+				&lt;/section&gt;
+			{{/ media__item}}
+		&lt;/div&gt;&lt;!--end 3up--&gt;
+
+	&lt;/div&gt;&lt;!--End role=main--&gt;
+	{{&gt; organisms-footer }}
+&lt;/div&gt;

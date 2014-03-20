@@ -1,3 +1,9 @@
 {
-	
+	"page-title": "Media",
+	"img": {
+		"landscape-4x3": {
+			"src": "../../images/fpo_4x3.png",
+			"alt": "4x3 Image"
+		}
+	}
 }
