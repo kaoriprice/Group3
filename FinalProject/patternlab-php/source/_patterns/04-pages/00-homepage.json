@@ -1,16 +1,18 @@
 {
 	"title" : "Home Page",
 	"bodyClass": "home",
+	"hero-img" : {
+		"src" : "../../images/intro.jpg",
+		"alt" : "Woman and man in a gym"
+	},
 	"hero" : [
 		{
-			"img": {
-				"landscape-16x9": {
-					"src": "../../images/sample/landscape-16x9-mountains.jpg",
-					"alt": "Mountains"	
-				}
+			"paragraph": {
+				"description": "Vivamus eros purus, fermentum vitae hendrerit sit amet suscipit sed purus"
 			},
-			"headline" : {
-				"medium" : "Top 10 mountain ranges for hiking"
+			"btn" : {
+				"type" : "round",
+				"text" : "Join Now"
 			}
 		}
 	],
