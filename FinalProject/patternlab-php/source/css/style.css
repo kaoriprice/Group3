@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:700,300,100);
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,300,400);
 /*                                                                                                                                         
                                                 ,,            ,,                          ,,                                             
  .M"""bgd mm                                    db          `7MM        mm         mm   `7MM                                    OO OO OO 
@@ -9604,14 +9604,14 @@ th.hide-for-touch {
 /* line 5, scss/_global.scss */
 body {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 /* line 9, scss/_global.scss */
 .button {
   text-transform: uppercase;
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 /*********** Header ********/
@@ -9646,32 +9646,33 @@ body {
   padding: 0.3em 0.8em;
   margin-bottom: 0;
   background: none;
-  font-weight: 300;
+  font-weight: 400;
+  text-transform: none;
 }
-/* line 37, scss/_global.scss */
+/* line 38, scss/_global.scss */
 .header__nav__link:hover {
   color: #e72511;
   background: white;
 }
 
 /*********** Footer ********/
-/* line 44, scss/_global.scss */
+/* line 45, scss/_global.scss */
 .upper-footer {
   background: #eee;
   padding: 2em;
 }
 
-/* line 48, scss/_global.scss */
+/* line 49, scss/_global.scss */
 .lower-footer {
   background: #aaa;
   color: #fff;
   padding: .8em;
 }
-/* line 52, scss/_global.scss */
+/* line 53, scss/_global.scss */
 .lower-footer a {
   color: #fff;
 }
-/* line 54, scss/_global.scss */
+/* line 55, scss/_global.scss */
 .lower-footer a:hover {
   color: #e72511;
 }
@@ -9695,7 +9696,7 @@ body {
   color: white;
   font-size: 2.2em;
   margin-bottom: 1em;
-  text-shadow: black 0 0 2em;
+  text-shadow: black 0 0 3em;
   font-weight: 400;
 }
 
@@ -9727,6 +9728,7 @@ body {
   padding-left: 3rem;
   padding-right: 3rem;
   font-weight: 700;
+  font-size: 1.3rem;
 }
 /* line 131, ../foundation/bower_components/foundation/scss/foundation/components/_buttons.scss */
 .hero__button:hover, .hero__button:focus {

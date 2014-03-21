@@ -12,7 +12,7 @@
 	color: white;
 	font-size: 2.2em;
 	margin-bottom: 1em;
-	@include text-shadow(#000 0 0 2em);
+	@include text-shadow(#000 0 0 3em);
 	font-weight: 400;
 }
 .hero__button {
@@ -21,4 +21,5 @@
 	padding-left: 3rem;
 	padding-right: 3rem;
 	font-weight: 700;
+	font-size: 1.3rem;
 }
