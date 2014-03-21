@@ -1,0 +1,19 @@
+/*********** Hero ********/
+.hero-intro {
+	padding: 20em;
+	text-align: center;
+}
+.hero__image {
+	position: absolute;
+	z-index: -10;
+	top: 0;
+}
+.hero__message {
+	color: white;
+	font-size: 2em;
+}
+.hero__button {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.2em;
+}
