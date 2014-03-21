@@ -1,9 +1,159 @@
 {
-	"page-title": "Hollywood Fitness::Media",
-	"img": {
-		"landscape-4x3": {
-			"src": "../../images/fpo_4x3.png",
-			"alt": "4x3 Image"
+	"title" : "Media Page",
+	"page-title": "Media",
+	"bodyClass": "media",
+	"media__item":[
+		{
+			"img": {
+				"class": "media__item",
+				"landscape-4x3": {
+					"src": "../../images/yoga_01.jpg",
+					"alt": "4x3 Image"
+				}
+			},
+			"h3": {
+				"class": "media__item__header"
+			},
+			"figcaption":{
+				"class": "media__item__content"
+			}
+		},
+		{
+			"img": {
+				"class": "media__item",
+				"landscape-4x3": {
+					"src": "../../images/yoga_02.jpg",
+					"alt": "4x3 Image"
+				}
+			},
+			"h3": {
+				"class": "media__item__header"
+			},
+			"figcaption":{
+				"class": "media__item__content"
+			}
+		},
+		{
+			"img": {
+				"class": "media__item",
+				"landscape-4x3": {
+					"src": "../../images/zumba_01.jpg",
+					"alt": "4x3 Image"
+				}
+			},
+			"h3": {
+				"class": "media__item__header"
+			},
+			"figcaption":{
+				"class": "media__item__content"
+			}
+		},
+		{
+			"img": {
+				"class": "media__item",
+				"landscape-4x3": {
+					"src": "../../images/zumba_02.jpg",
+					"alt": "4x3 Image"
+				}
+			},
+			"h3": {
+				"class": "media__item__header"
+			},
+			"figcaption":{
+				"class": "media__item__content"
+			}
+		},
+		{
+			"img": {
+				"class": "media__item",
+				"landscape-4x3": {
+					"src": "../../images/running_01.jpg",
+					"alt": "4x3 Image"
+				}
+			},
+			"h3": {
+				"class": "media__item__header"
+			},
+			"figcaption":{
+				"class": "media__item__content"
+			}
+		},
+		{
+			"img": {
+				"class": "media__item",
+				"landscape-4x3": {
+
+					"src": "../../images/weight_training_01.jpg",
+					"alt": "4x3 Image"
+				}
+			},
+			"h3": {
+				"class": "media__item__header"
+			},
+			"figcaption":{
+				"class": "media__item__content"
+			}
+		},
+		{
+			"img": {
+				"class": "media__item",
+				"landscape-4x3": {
+					"src": "../../images/weight_lifting_01.jpg",
+					"alt": "4x3 Image"
+				}
+			},
+			"h3": {
+				"class": "media__item__header"
+			},
+			"figcaption":{
+				"class": "media__item__content"
+			}
+		},
+		{
+			"img": {
+				"class": "media__item",
+				"landscape-4x3": {
+					"src": "../../images/random_01.jpg",
+					"alt": "4x3 Image"
+				}
+			},
+			"h3": {
+				"class": "media__item__header"
+			},
+			"figcaption":{
+				"class": "media__item__content"
+			}
+		},
+		{
+			"img": {
+				"class": "media__item",
+				"landscape-4x3": {
+					"src": "../../images/running_01.jpg",
+					"alt": "4x3 Image"
+				}
+			},
+			"h3": {
+				"class": "media__item__header"
+			},
+			"figcaption":{
+				"class": "media__item__content"
+			}
+		},
+		{
+			"img": {
+				"class": "media__item",
+				"landscape-4x3": {
+					"src": "../../images/running_02.jpg",
+					"alt": "4x3 Image"
+				}
+			},
+			"h3": {
+				"class": "media__item__header"
+			},
+			"figcaption":{
+				"class": "media__item__content"
+			}
 		}
-	}
+		
+	]
 }
