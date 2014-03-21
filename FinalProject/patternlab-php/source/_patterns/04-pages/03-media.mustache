@@ -1,16 +1,17 @@
 <div class="page" id="page">
 	{{> organisms-header }}
-	<div role="main">
-		<h1 class="page-title">{{ page-title }}</h1>
-		<div class="g g-3up">
-			{{img.square}}
-			{{# media__item}}
-				<section class="img">
-					{{img.landscape-4x3}}
-				</section>
-			{{/ media__item}}
-		</div><!--end 3up-->
+	<div class="main row">
 
-	</div><!--End role=main-->
+		<h1 class="page-title">{{ page-title }}</h1>
+
+		<div class="media">
+			{{# media__item}}
+				{{> molecules-media-item}}
+			{{/ media__item}}
+		</div><!--end l-four-col-->
+
+		</div><!--End .main-->
 	{{> organisms-footer }}
 </div>
+
+

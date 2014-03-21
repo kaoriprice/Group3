@@ -8,7 +8,7 @@ var comments = {
 	{
 		"el": ".logo",
 		"title" : "Logo",
-		"comment": "The logo image is an jpg file, which ensures that the logo displays crisply even on high resolution displays. It is the logo that's been carried over from the original Hollywood Fitness website.</p>"
+		"comment": "The logo image is an pgn file, which ensures that the logo displays crisply even on high resolution displays. It is the logo that's been carried over from the original Hollywood Fitness website.</p>"
 	},
 	{
 		"el": ".header__nav__button",
@@ -68,7 +68,7 @@ var comments = {
 	{
 		"el": ".class__image",
 		"title" : "Class image",
-		"comment": "<p>The navigation button has slightly rounded corners. It should be in *red* and when it's hovered, it changes to a darker *red*.</p>"
+		"comment": "<p>The image for a class is 4x3, no rounded corner.</p>"
 	},
 	{
 		"el": ".signUp__button",
