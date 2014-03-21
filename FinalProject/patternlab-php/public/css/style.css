@@ -9592,54 +9592,91 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 1, scss/_global.scss */
-.main-nav {
-  float: right;
-}
-
 /*********** Header ********/
-/* line 3, scss/_global.scss */
+/* line 2, scss/_global.scss */
 .header {
   background: #de2d0f;
   /* The Fallback */
   background: rgba(222, 45, 15, 0.8);
-  height: 6em;
+  padding: 1em 0;
 }
 
-/* line 7, scss/_global.scss */
+/* line 6, scss/_global.scss */
 .logo {
-  margin-top: .5em;
+  max-width: 18.75rem;
 }
 
 /* line 9, scss/_global.scss */
-.mainNavigation .main-nav {
-  margin-top: 1.8em;
+.header__nav {
+  float: right;
+  margin-top: 1.4em;
 }
-/* line 11, scss/_global.scss */
-.mainNavigation .main-nav a {
+
+/* line 13, scss/_global.scss */
+.header__nav__button {
+  margin-left: 0.2em;
+}
+
+/* line 16, scss/_global.scss */
+.header__nav__link {
   color: #fff;
   font-size: 1.2em;
-  margin-left: .7em;
+  display: block;
+  padding: 0.3em 0.8em;
+  margin-bottom: 0;
+  background: none;
+}
+/* line 23, scss/_global.scss */
+.header__nav__link:hover {
+  color: #de2d0f;
+  background: white;
 }
 
 /*********** Footer ********/
-/* line 19, scss/_global.scss */
+/* line 30, scss/_global.scss */
 .upper-footer {
   background: #eee;
   padding: 2em;
 }
 
-/* line 23, scss/_global.scss */
+/* line 34, scss/_global.scss */
 .lower-footer {
   background: #aaa;
   color: #fff;
   padding: .8em;
 }
-/* line 27, scss/_global.scss */
+/* line 38, scss/_global.scss */
 .lower-footer a {
   color: #fff;
 }
-/* line 29, scss/_global.scss */
+/* line 40, scss/_global.scss */
 .lower-footer a:hover {
   color: #de2d0f;
+}
+
+/*********** Hero ********/
+/* line 2, scss/_home.scss */
+.hero-intro {
+  padding: 20em;
+  text-align: center;
+}
+
+/* line 6, scss/_home.scss */
+.hero__image {
+  position: absolute;
+  z-index: -10;
+  top: 0;
+}
+
+/* line 11, scss/_home.scss */
+.hero__message {
+  color: white;
+  font-size: 2em;
+}
+
+/* line 15, scss/_home.scss */
+.hero__button {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
 }
