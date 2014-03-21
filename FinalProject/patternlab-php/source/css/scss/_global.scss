@@ -1,3 +1,17 @@
+/*********** General ********/
+* {
+	@include box-sizing(border-box);
+}
+body {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+}
+.button {
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
 /*********** Header ********/
 .header { 
 	@include background-opacity($primaryRed, 0.8);
@@ -15,11 +29,11 @@
 }
 .header__nav__link {
 	color: #fff;
-	font-size: 1.2em;
 	display: block;
 	padding: 0.3em 0.8em;
 	margin-bottom: 0;
 	background: none;
+	font-weight: 300;
 	&:hover {
 		color: $primaryRed;
 		background: white;

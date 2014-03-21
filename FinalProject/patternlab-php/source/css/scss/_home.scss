@@ -1,6 +1,6 @@
 /*********** Hero ********/
 .hero-intro {
-	padding: 20em;
+	padding: 20em ;
 	text-align: center;
 }
 .hero__image {
@@ -10,10 +10,15 @@
 }
 .hero__message {
 	color: white;
-	font-size: 2em;
+	font-size: 2.2em;
+	margin-bottom: 1em;
+	@include text-shadow(#000 0 0 2em);
+	font-weight: 400;
 }
 .hero__button {
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 1.2em;
+	@include button(1rem);
+	@include background-opacity($primaryBlue, 0.8);
+	padding-left: 3rem;
+	padding-right: 3rem;
+	font-weight: 700;
 }
