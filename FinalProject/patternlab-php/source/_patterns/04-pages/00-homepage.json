@@ -8,46 +8,21 @@
 	"hero" : [
 		{
 			"paragraph": {
-				"description": "Vivamus eros purus, fermentum vitae hendrerit sit amet suscipit sed purus"
+				"class" : "hero__message",
+				"description" : "Vivamus eros purus, fermentum vitae hendrerit sit amet suscipit sed purus"
 			},
 			"btn" : {
-				"type" : "round",
+				"class" : "round hero__button",
 				"text" : "Join Now"
 			}
 		}
 	],
-	"touts" : [
+	"why-us" : [
 		{
-			"img": {
-				"landscape-4x3": {
-					"src": "../../images/sample/tout-4x3-climber.jpg",
-					"alt": "Climber"	
-				}
-			},
-			"headline" : {
-				"short" : "Extreme climbing tips"
-			}
-		},
-		{
-			"img": {
-				"landscape-4x3": {
-					"src": "../../images/sample/tout-4x3-stream.jpg",
-					"alt": "Stream hiking"	
-				}
-			},
-			"headline" : {
-				"short" : "Stream hiking"
-			}
-		},
-		{
-			"img": {
-				"landscape-4x3": {
-					"src": "../../images/sample/tout-4x3-climbers.jpg",
-					"alt": "Explore hiking trails"	
-				}
-			},
-			"headline" : {
-				"short" : "Explore hiking trails"
+			"content-title" : "Why Us",
+			"btn" : {
+				"class" : "radius",
+				"text" : "Choose Us"
 			}
 		}
 	],
