@@ -6,12 +6,43 @@
 		<p class="page__description">{{ page-description }}</p>
 
 		<div class="row">
-			{{# classes}}
-				{{> molecules-classes-item}}
-			{{/ classes}}
+				{{# classes}}
+					{{> molecules-classes-item}}
+				{{/ classes}}
+			</div>
 		</div>
+
+		<div class="reveal-modal-bg" style="display: none"></div>
+
+		<div id="yogaModal" class="reveal-modal" data-reveal>
+			<h2 class="modal__title">Welcome to Yoga</h2>
+			<p class="modal__image"><img src="" alt=""></p>
+			<p class="teacher">Teacher: A Name Here</p>
+			<p>Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue. Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue.</p>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>
+
+		<div id="zumbaModal" class="reveal-modal" data-reveal>
+			<h2 class="modal__title">Welcome to Zumba</h2>
+			<p class="modal__image"><img src="" alt=""></p>
+			<p class="teacher">Teacher: A Name Here</p>
+			<p>Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue. Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue.</p>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>
+
+		<div id="absModal" class="reveal-modal" data-reveal>
+			<h2 class="modal__title">Welcome to Rock Your Abs</h2>
+			<p class="modal__image"><img src="" alt=""></p>
+			<p class="teacher">Teacher: A Name Here</p>
+			<p>Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue. Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue.</p>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>
+
 	</div><!--End .main-->
 	{{> organisms-footer }}
 </div>
 
-
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/foundation/js/foundation.min.js"></script>
+<script src="../js/app.js"></script>
+ 

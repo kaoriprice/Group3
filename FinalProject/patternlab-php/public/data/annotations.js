@@ -66,7 +66,7 @@ var comments = {
 		"comment": "<p>The navigation button has slightly rounded corners. It should be in *red* and when it's hovered, it changes to a darker *red*.</p>"
 	},
 	{
-		"el": ".classes__image",
+		"el": ".classes__item__image",
 		"title" : "Class image",
 		"comment": "<p>The image for a class is 4x3, no rounded corner.</p>"
 	},

@@ -1,10 +1,11 @@
+
 <div class="classes large-12 columns">
-	<article class="classes__item large-6 columns">
-		<h3 class="{{title.class}}">{{title.header}}</h3>
-		<p class="{{description}}">
-			{{ description.content}}
+	<article class="{{classes__item.class}}" style="{{class__item.style}}">
+		<h3 class="{{classes__item__title.class}}" >{{classes__item__title.content}}</h3>
+		<p class="{{classes__item__description.class}}">
+			{{ excerpt.medium }}
 		</p>
 		<a href="" data-reveal-id="yogaModal" class="class__item__button medium radius button">More Details</a>
 	</article>
-	<img class="{{ img.class }}" src="{{ img.landscape-16x9.src }}" alt="{{ img.landscape-16x9.alt }}" />
+	<img class="{{ classes__item__image.class }}" style="{{class__item__image.style}}" src="{{ classes__item__image.landscape-16x9.src }}" alt="{{ classes__item__image.landscape-16x9.alt }}" />
 </div>
