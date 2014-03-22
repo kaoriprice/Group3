@@ -5,7 +5,7 @@
 		{
 			"img": {
 				"square": {
-					"src": "http://placehold.it/120x145",
+					"src": "../../images/jeffruth1.png",
 					"alt": "Jeft Ruth"	
 				}
 			},
@@ -22,7 +22,7 @@
 		{
 			"img": {
 				"square": {
-					"src": "http://placehold.it/120x145",
+					"src": "../../images/fpo_avatar.png",
 					"alt": "Jim Hnatow"	
 				}
 			},
@@ -39,7 +39,7 @@
 		{
 			"img": {
 				"square": {
-					"src": "http://placehold.it/120x145",
+					"src": "../../images/fpo_avatar.png",
 					"alt": "Frank Price"	
 				}
 			},
@@ -56,7 +56,7 @@
 		{
 			"img": {
 				"square": {
-					"src": "http://placehold.it/120x145",
+					"src": "../../images/fpo_avatar.png",
 					"alt": "Jake Hardy"	
 				}
 			},
@@ -73,7 +73,7 @@
 		{
 			"img": {
 				"square": {
-					"src": "http://placehold.it/120x145",
+					"src": "../../images/fpo_avatar.png",
 					"alt": "Lilly Douglas"	
 				}
 			},
@@ -90,7 +90,7 @@
 		{
 			"img": {
 				"square": {
-					"src": "http://placehold.it/120x145",
+					"src": "../../images/fpo_avatar.png",
 					"alt": "Kathy Leahy"	
 				}
 			},
