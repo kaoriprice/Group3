@@ -31,6 +31,10 @@ p {
 	margin-bottom: 1.2rem;
 	color: $primaryRed;
 }
+.time { 
+	font-size: 12px;
+	font-style: italic;
+}
 
 
 /*********** Header ********/
@@ -66,6 +70,22 @@ p {
 .upper-footer {
 	background: #eee;
 	padding: 2em;
+	color: #777;
+	abbr { color: #777; }
+	.self-promotion__button {
+		float: left;
+	}
+	.social__header, .contact__header {
+		color: $primaryBlue;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 1.4em;
+	}
+	.social__block.facebook { margin-top: 2.5em;}
+	@media( min-width:768px) {
+		.address__map { max-width:280px; }
+	}
+	.address__company { margin-top: .7em; }
 }
 .lower-footer {
 	background: #aaa;
@@ -74,5 +94,33 @@ p {
 	a { 
 		color: #fff;
 		&:hover { color: $primaryRed;}
+	}
+	.footer__nav { 
+		float: right;
+		margin: .3em 0 0 0;
+	}
+	.footer__nav__button {
+		margin-left: 0 !important;
+	}
+	.footer__nav__link {
+		color: #fff;
+		display: block;
+		padding: 0.3em;
+		margin-bottom: 0;
+		background: none;
+		font-weight: 400;
+		text-transform: none;
+		&:hover {
+			color: $primaryRed;
+			background: none;
+		}
+	}
+	.divider {
+		 color: #fff; 
+	}
+	.copyright { margin-top: .8em; }
+	@media(max-width:767px) {
+		.footer__nav { display:none; }
+		.copyright { text-align: center;}
 	}
 }
