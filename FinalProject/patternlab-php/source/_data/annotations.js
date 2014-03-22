@@ -57,7 +57,7 @@ var comments = {
 	},
 	{
 		"el": ".content__description",
-		"title" : "class__description",
+		"title" : "content__description",
 		"comment": "<p>The content text should be *color*, *font size* in *font type*. The line height should be *line height*.</p>"
 	},
 	{
@@ -66,7 +66,7 @@ var comments = {
 		"comment": "<p>The navigation button has slightly rounded corners. It should be in *red* and when it's hovered, it changes to a darker *red*.</p>"
 	},
 	{
-		"el": ".class__image",
+		"el": ".classes__image",
 		"title" : "Class image",
 		"comment": "<p>The image for a class is 4x3, no rounded corner.</p>"
 	},

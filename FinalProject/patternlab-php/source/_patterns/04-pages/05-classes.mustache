@@ -1,0 +1,17 @@
+<div class="page" id="page">
+	{{> organisms-header }}
+	<div class="main row">
+
+		<h1 class="page__title">{{ classes-classes.title }}</h1>
+		<p class="page__description">{{ page-description }}</p>
+
+		<div class="row">
+			{{# classes}}
+				{{> molecules-classes-item}}
+			{{/ classes}}
+		</div>
+	</div><!--End .main-->
+	{{> organisms-footer }}
+</div>
+
+

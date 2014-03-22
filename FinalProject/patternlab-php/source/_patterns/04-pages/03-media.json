@@ -67,7 +67,7 @@
 			"img": {
 				"class": "media__item",
 				"landscape-4x3": {
-					"src": "../../images/running_01.jpg",
+					"src": "../../images/running_02.jpg",
 					"alt": "4x3 Image"
 				}
 			},
@@ -138,22 +138,6 @@
 			"figcaption":{
 				"class": "media__item__content"
 			}
-		},
-		{
-			"img": {
-				"class": "media__item",
-				"landscape-4x3": {
-					"src": "../../images/running_02.jpg",
-					"alt": "4x3 Image"
-				}
-			},
-			"h3": {
-				"class": "media__item__header"
-			},
-			"figcaption":{
-				"class": "media__item__content"
-			}
 		}
-		
 	]
 }
