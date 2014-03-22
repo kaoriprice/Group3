@@ -36,7 +36,7 @@
 // $include-xl-html-grid-classes: false;
 
 	$row-width: rem-calc(1366);
-// $column-gutter: rem-calc(30);
+	$column-gutter: 5%;
 // $total-columns: 12;
 
 // We use these to control various global styles
@@ -55,10 +55,15 @@
 // $default-float: left;
 
 // We use these as default colors throughout
-	$primaryRed: #de2d0f;
-	$secondaryRed: #cf2a0e;
-	$primaryBlue: #2e516d;
-	$primaryGrey: #666666; 
+	$primaryRed: #e72511;
+	$lightRed: #ff6446;
+	$primaryBlue: #2773a5;
+	$lightBlue: lighten($primaryBlue, 7%);
+	$darkBlue: darken($primaryBlue, 7%);
+	$shade1: #eee;
+	$shade2: #bbb;
+	$shade3: #666;
+	$shade4: #333;
 // $primary-color: #008CBA;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
