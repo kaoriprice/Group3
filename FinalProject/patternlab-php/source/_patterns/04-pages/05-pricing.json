@@ -1,0 +1,29 @@
+{
+	"page-title": "Pricing",
+	"pricing" : [
+		{
+			"pricing" : {
+				"title" : "Basic",
+				"price" : "$25/month",
+				"buttonText" : "Buy Now",
+				"feature" : "24/7 gym acess"
+			}
+		},
+		{
+			"pricing" : {
+				"title" : "Premium",
+				"price" : "$35/month",
+				"buttonText" : "Buy Now",
+				"feature" : "VIP guest privilege"
+			}
+		}
+
+	],
+	"trail" : {
+		"trail-text" : "Not sure which to choose...",
+		"trail-button" : "Call-to-action for Trial Plans"
+	},
+	"business-plan" : {
+		"business" : "Looking for business plans? We have them too. Give us a call at 800-080-0808 to find out more."
+	}
+}

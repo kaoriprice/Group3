@@ -1,0 +1,67 @@
+{
+	"title" : "Classes page",
+	"page-title": "Classes",
+	"bodyClass": "class",
+	"page-description": "Donec condimentum enim ut velit elementum tristique. Quisque commodo ac lacus ut consectetur. Proin commodo gravida placerat. Sed convallis orci nec sagittis blandit. Nunc ultricies eu sapien a vulputate.",
+	"classes-image":{
+		"src": "../../images/yoga_01.jpg",
+		"alt":"people streaching"
+		},
+	"classes":[
+		{
+			"title":{
+				"header":"Yoga",
+				"class":"content__title--level1"
+
+			},
+			"description":{
+				"content":"Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue."
+
+			},
+			"img": {
+				"class": "large-6 columns",
+				"landscape-16x9": {
+					"src": "../../images/yoga-class.jpg",
+					"alt": "Woman in yoga poses"
+				}
+			}
+		},
+		{
+			"title":{
+				"header":"Zumba",
+				"class":"content__title--level1"
+
+			},
+			"description":{
+				"content":"Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue."
+
+			},
+			"img": {
+				"class": "large-6 columns",
+				"landscape-16x9": {
+					"src": "../../images/zumba-class.jpg",
+					"alt": "Woman in yoga poses"
+				}
+			}
+		},
+		{
+			"title":{
+				"header":"Rock Your Abs",
+				"class":"content__title--level1"
+
+			},
+			"description":{
+				"content":"Vivamus rhoncus viverra lectus sit amet euismod. Proin ut vestibulum lacus. Suspendisse vehicula molestie augue id dignissim. Morbi suscipit et erat id lobortis. Sed arcu ante, pretium ut leo ac, ullamcorper imperdiet augue."
+
+			},
+			"img": {
+				"class": "large-6 columns",
+				"landscape-16x9": {
+					"src": "../../images/abs-class.jpg",
+					"alt": "Woman in yoga poses"
+				}
+			}
+		}
+
+	]
+}

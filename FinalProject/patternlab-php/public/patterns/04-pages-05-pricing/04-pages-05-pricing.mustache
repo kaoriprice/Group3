@@ -1,0 +1,32 @@
+&lt;div class=&quot;page&quot; id=&quot;page&quot;&gt;
+	{{&gt; organisms-header }}
+	&lt;div role=&quot;main&quot;&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;large-12 columns&quot;&gt;
+				&lt;h1 class=&quot;page-title&quot;&gt;{{ page-title }}&lt;/h1&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;staffBody&quot;&gt;
+				{{# pricing}}
+					&lt;div class=&quot;large-6 columns&quot;&gt;
+						{{&gt; molecules-pricing-table }}
+					&lt;/div&gt;
+				{{/ pricing}}
+				{{# trail }}
+					&lt;div class=&quot;large-4 columns&quot;&gt;
+						&lt;h3 class=&quot;trial__text&quot;&gt; {{ trail-text }} &lt;/h3&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;large-8 columns&quot;&gt;
+						&lt;a href=&quot;&quot; class=&quot;large round button&quot;&gt;{{ trail-button }}&lt;/a&gt;
+					&lt;/div&gt;
+				{{/ trail}}
+				{{# business-plan}}
+					&lt;div class=&quot;large 12 columns&quot;&gt;
+						{{ business }}
+					&lt;/div&gt;
+				{{/ business-plan}}
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;&lt;!--End role=main--&gt;
+	{{&gt; organisms-footer }}
+&lt;/div&gt;
