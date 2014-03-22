@@ -1,6 +1,6 @@
 /*********** Hero ********/
 .hero-intro {
-	padding: 20em ;
+	padding: 20em 20em 15em 20em;
 	text-align: center;
 }
 .hero__image {
@@ -17,9 +17,51 @@
 }
 .hero__button {
 	@include button(1rem);
-	@include background-opacity($primaryBlue, 0.8);
-	padding-left: 3rem;
-	padding-right: 3rem;
+	@include background-opacity($primaryBlue, 0.7);
+	padding-left: 4rem;
+	padding-right: 4rem;
 	font-weight: 700;
 	font-size: 1.3rem;
+	&:hover {
+		@include background-opacity($primaryBlue, 0.9);
+	}
+}
+
+
+/*********** Why Us ********/
+.self-promotion-wrapper {
+	background: url(../images/why-us.jpg) no-repeat;
+	padding: 6em 0 12em 0;
+	overflow: hidden;
+}
+.self-promotion {
+	padding: 2.7em 4em 3.2em 2.7em;
+	@include background-opacity(white, 0.7);
+}
+.self-promotion__content {
+	font-size: 1.7rem;
+	color: $grey3;
+	font-weight: 100;
+}
+.self-promotion__emphasis {
+	background: $lightBlue;
+	color: white;
+}
+.self-promotion__button {
+	@extend .radius-button;
+	float: right;
+}
+
+
+/*********** Join a Class ********/
+.class-promotion-background {
+	position: absolute;
+	top: 97em;
+	z-index: -10;
+	background: lighten($lightBlue, 27%);
+	width: 100%;
+	height: 50em;
+}
+.classes-promotion {
+	padding: 4em 0;
 }

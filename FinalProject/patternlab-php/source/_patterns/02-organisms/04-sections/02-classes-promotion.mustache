@@ -1,7 +1,12 @@
-<section class="classes-promotion">
-	{{> atoms-content-title1 }}
+<section class="row classes-promotion">
+	<div class="large-12 columns">
+		{{> atoms-content-title1 }}
+	</div>
+
 	{{# class }}
-		{{> molecules-figure-with-caption }}
+		<div class="large-6 columns"> 
+			{{> molecules-figure-with-caption }}
+		</div>
 	{{/ class }}
 	{{> atoms-button }}
 </section>

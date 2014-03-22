@@ -21,7 +21,7 @@
 		{
 			"content-title1" : "Why Us",
 			"btn" : {
-				"class" : "radius",
+				"class" : "radius self-promotion__button",
 				"text" : "Choose Us"
 			}
 		}
