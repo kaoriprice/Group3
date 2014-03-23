@@ -9665,19 +9665,25 @@ p {
 .logo {
   max-width: 18.75rem;
 }
+@media (max-width: 1075px) {
+  /* line 45, scss/_global.scss */
+  .logo {
+    max-width: 12.5rem;
+  }
+}
 
-/* line 48, scss/_global.scss */
+/* line 51, scss/_global.scss */
 .header__nav {
   float: right;
   margin-top: 1.4em;
 }
 
-/* line 52, scss/_global.scss */
+/* line 55, scss/_global.scss */
 .header__nav__button {
   margin-left: 0.2em;
 }
 
-/* line 55, scss/_global.scss */
+/* line 58, scss/_global.scss */
 .header__nav__link {
   color: #fff;
   display: block;
@@ -9687,73 +9693,127 @@ p {
   font-weight: 400;
   text-transform: none;
 }
-/* line 63, scss/_global.scss */
+/* line 66, scss/_global.scss */
 .header__nav__link:hover {
   color: #e72511;
   background: white;
 }
 
+@media (max-width: 1075px) {
+  /* line 71, scss/_global.scss */
+  .mainNav {
+    display: none;
+  }
+}
+
+/* line 76, scss/_global.scss */
+.mobile-menu {
+  margin: 0;
+}
+/* line 78, scss/_global.scss */
+.mobile-menu .main-nav__item {
+  list-style: none;
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+/* line 84, scss/_global.scss */
+.mobile-menu .main-nav__link {
+  color: #fff;
+  width: 100%;
+  padding: 0.625rem 0;
+  display: block;
+}
+/* line 90, scss/_global.scss */
+.mobile-menu .main-nav__link:hover, .mobile-menu .main-nav__link:visited {
+  background: #008cba;
+}
+
+/* line 93, scss/_global.scss */
+.right-off-canvas-toggle {
+  font-size: 2em;
+  position: absolute;
+  top: -55px;
+  right: 10px;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 100, scss/_global.scss */
+.right-off-canvas-toggle:hover {
+  color: #bbbbbb;
+}
+
+@media (min-width: 1074px) {
+  /* line 104, scss/_global.scss */
+  .right-off-canvas-menu, .right-off-canvas-toggle {
+    display: none;
+  }
+}
+
 /*********** Footer ********/
-/* line 70, scss/_global.scss */
+/* line 110, scss/_global.scss */
 .upper-footer {
   background: #eee;
   padding: 2em;
   color: #777;
 }
-/* line 74, scss/_global.scss */
+/* line 114, scss/_global.scss */
 .upper-footer abbr {
   color: #777;
 }
-/* line 75, scss/_global.scss */
+/* line 115, scss/_global.scss */
 .upper-footer .self-promotion__button {
   float: left;
 }
-/* line 78, scss/_global.scss */
+/* line 118, scss/_global.scss */
 .upper-footer .social__header, .upper-footer .contact__header {
-  color: #2773a5;
+  color: #174563;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1.4em;
 }
-/* line 84, scss/_global.scss */
+/* line 124, scss/_global.scss */
 .upper-footer .social__block.facebook {
   margin-top: 2.5em;
 }
 @media (min-width: 768px) {
-  /* line 86, scss/_global.scss */
+  /* line 126, scss/_global.scss */
   .upper-footer .address__map {
     max-width: 280px;
   }
 }
-/* line 88, scss/_global.scss */
+/* line 128, scss/_global.scss */
 .upper-footer .address__company {
   margin-top: .7em;
 }
 
-/* line 90, scss/_global.scss */
+/* line 130, scss/_global.scss */
 .lower-footer {
   background: #aaa;
   color: #fff;
   padding: .8em;
 }
-/* line 94, scss/_global.scss */
+/* line 134, scss/_global.scss */
 .lower-footer a {
   color: #fff;
 }
-/* line 96, scss/_global.scss */
+/* line 136, scss/_global.scss */
 .lower-footer a:hover {
   color: #e72511;
 }
-/* line 98, scss/_global.scss */
+/* line 138, scss/_global.scss */
 .lower-footer .footer__nav {
   float: right;
   margin: .3em 0 0 0;
 }
-/* line 102, scss/_global.scss */
+/* line 142, scss/_global.scss */
 .lower-footer .footer__nav__button {
   margin-left: 0 !important;
 }
-/* line 105, scss/_global.scss */
+/* line 145, scss/_global.scss */
 .lower-footer .footer__nav__link {
   color: #fff;
   display: block;
@@ -9763,25 +9823,25 @@ p {
   font-weight: 400;
   text-transform: none;
 }
-/* line 113, scss/_global.scss */
+/* line 153, scss/_global.scss */
 .lower-footer .footer__nav__link:hover {
   color: #e72511;
   background: none;
 }
-/* line 118, scss/_global.scss */
+/* line 158, scss/_global.scss */
 .lower-footer .divider {
   color: #fff;
 }
-/* line 121, scss/_global.scss */
+/* line 161, scss/_global.scss */
 .lower-footer .copyright {
   margin-top: .8em;
 }
 @media (max-width: 767px) {
-  /* line 123, scss/_global.scss */
+  /* line 163, scss/_global.scss */
   .lower-footer .footer__nav {
     display: none;
   }
-  /* line 124, scss/_global.scss */
+  /* line 164, scss/_global.scss */
   .lower-footer .copyright {
     text-align: center;
   }
