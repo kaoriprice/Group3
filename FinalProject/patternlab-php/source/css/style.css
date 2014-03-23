@@ -9733,8 +9733,8 @@ p {
 .right-off-canvas-toggle {
   font-size: 2em;
   position: absolute;
-  top: -55px;
-  right: 10px;
+  top: -65px;
+  right: 0;
   color: #fff;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -9743,7 +9743,7 @@ p {
 }
 /* line 100, scss/_global.scss */
 .right-off-canvas-toggle:hover {
-  color: #bbbbbb;
+  color: #174563;
 }
 
 @media (min-width: 1074px) {
@@ -9970,7 +9970,7 @@ p {
   overflow: hidden;
   margin-bottom: 2.5em;
   padding: 20px;
-  background-color: #eee;
+  background-color: #fafafa;
   border: 1px solid #ddd;
 }
 @media (max-width: 767px) {
@@ -9992,7 +9992,13 @@ p {
     max-width: 7.5em;
   }
 }
-/* line 18, scss/_staff.scss */
+@media (max-width: 767px) {
+  /* line 12, scss/_staff.scss */
+  .staffItem__image {
+    width: 100%;
+  }
+}
+/* line 21, scss/_staff.scss */
 .staffItem__image img {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -10001,15 +10007,70 @@ p {
   border-radius: 20px;
 }
 
-/* line 20, scss/_staff.scss */
+/* line 23, scss/_staff.scss */
 .staffItem__title {
   color: #2773a5;
   margin-bottom: 0;
 }
 
-/* line 24, scss/_staff.scss */
+/* line 27, scss/_staff.scss */
 .staffItem__position {
   margin-bottom: 5px;
   font-style: italic;
   font-size: .7em;
+}
+
+/* line 1, scss/_pricing.scss */
+.pricing-table {
+  margin-bottom: 3em;
+}
+/* line 3, scss/_pricing.scss */
+.pricing-table .title {
+  background: #174563;
+  font-size: 1.3em;
+}
+/* line 7, scss/_pricing.scss */
+.pricing-table .price__text {
+  padding-top: 1em;
+}
+/* line 10, scss/_pricing.scss */
+.pricing-table .self-promotion__button {
+  float: none;
+  margin-bottom: 1em;
+}
+
+/* line 15, scss/_pricing.scss */
+.trail {
+  margin-bottom: 5em;
+}
+/* line 17, scss/_pricing.scss */
+.trail .trial__text {
+  color: #bbbbbb;
+  margin-top: .7em;
+}
+@media (max-width: 767px) {
+  /* line 17, scss/_pricing.scss */
+  .trail .trial__text {
+    text-align: center;
+  }
+}
+/* line 24, scss/_pricing.scss */
+.trail .trail__button {
+  width: 100%;
+  background: #174563;
+}
+/* line 27, scss/_pricing.scss */
+.trail .trail__button:hover {
+  background: #2773a5;
+}
+
+/* line 30, scss/_pricing.scss */
+.businessPlan {
+  margin: 5em auto;
+  max-width: 440px;
+  padding: 1.25rem 2.5rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #2e516d;
+  line-height: 1.6em;
 }

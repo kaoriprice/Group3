@@ -1,0 +1,38 @@
+.pricing-table {
+	margin-bottom: 3em;
+	.title { 
+		background: $darkBlue;
+		font-size: 1.3em;
+	}
+	.price__text {
+		padding-top: 1em;
+	}
+	.self-promotion__button { 
+		float: none;
+		margin-bottom: 1em;
+	}
+}
+.trail {
+	margin-bottom: 5em;
+	.trial__text {
+		color: $grey2;
+		margin-top: .7em;
+		@media(max-width:767px) {
+			text-align: center;
+		}
+	}
+	.trail__button { 
+		width: 100%; 
+		background: $darkBlue;
+		&:hover { background: $primaryBlue; }
+	}
+}
+.businessPlan {
+	margin: 5em auto;
+	max-width:440px;
+	padding: 1.25rem 2.5rem;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	color: #2e516d;
+	line-height: 1.6em;
+}
