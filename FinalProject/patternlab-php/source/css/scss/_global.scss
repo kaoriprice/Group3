@@ -20,6 +20,11 @@ p {
 	color: $primaryRed;
 	margin: 1em 0 0.6em 0;
 }
+.page-description {
+	font-weight: 100;
+	overflow: hidden;
+	margin-bottom: 1.5rem;
+}
 .button,
 .content__title--level1 {
 	text-transform: uppercase;

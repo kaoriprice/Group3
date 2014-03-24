@@ -14,3 +14,11 @@
 .classes__item__image {
 	width: 50%;
 }
+.class__item__button {
+	@extend .radius-button;
+}
+.main {
+	.classes-wrapper {
+		margin-bottom: 5rem;
+	}
+}
