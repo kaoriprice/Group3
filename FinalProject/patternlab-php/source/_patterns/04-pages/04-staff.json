@@ -22,7 +22,7 @@
 		{
 			"img": {
 				"square": {
-					"src": "../../images/fpo_avatar.png",
+					"src": "../../images/stuff_01.jpg",
 					"alt": "Jim Hnatow"	
 				}
 			},
@@ -39,12 +39,12 @@
 		{
 			"img": {
 				"square": {
-					"src": "../../images/fpo_avatar.png",
+					"src": "../../images/stuff_02.jpg",
 					"alt": "Frank Price"	
 				}
 			},
 			"headline" : {
-				"short" : "Frank Price"
+				"short" : "Kathy Leahy"
 			},
 			"position" : {
 				"short" : "Personal Trainer"
@@ -56,25 +56,8 @@
 		{
 			"img": {
 				"square": {
-					"src": "../../images/fpo_avatar.png",
+					"src": "../../images/stuff_03.jpg",
 					"alt": "Jake Hardy"	
-				}
-			},
-			"headline" : {
-				"short" : "Jake Hardy"
-			},
-			"position" : {
-				"short" : "Personal Trainer"
-			},
-			"exerpt" : {
-				"medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada velit eu sem fringilla"
-			}
-		},
-		{
-			"img": {
-				"square": {
-					"src": "../../images/fpo_avatar.png",
-					"alt": "Lilly Douglas"	
 				}
 			},
 			"headline" : {
@@ -90,12 +73,29 @@
 		{
 			"img": {
 				"square": {
-					"src": "../../images/fpo_avatar.png",
+					"src": "../../images/stuff_04.jpg",
+					"alt": "Lilly Douglas"	
+				}
+			},
+			"headline" : {
+				"short" : "Jake Hardy"
+			},
+			"position" : {
+				"short" : "Personal Trainer"
+			},
+			"exerpt" : {
+				"medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada velit eu sem fringilla"
+			}
+		},
+		{
+			"img": {
+				"square": {
+					"src": "../../images/stuff_05.jpg",
 					"alt": "Kathy Leahy"	
 				}
 			},
 			"headline" : {
-				"short" : "Kathy Leahy"
+				"short" : "Frank Price"
 			},
 			"position" : {
 				"short" : "Personal Trainer"
