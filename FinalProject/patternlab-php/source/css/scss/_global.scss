@@ -11,6 +11,14 @@ p {
 }
 .row {
 	width: 92%;
+	.row {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+.page__title {
+	color: $primaryRed;
+	margin: 1em 0 0.6em 0;
 }
 .button,
 .content__title--level1 {

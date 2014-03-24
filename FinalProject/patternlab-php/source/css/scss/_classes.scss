@@ -1,0 +1,15 @@
+.classes {
+	background: $grey1;
+	&:nth-child(2) {
+		.classes__item {
+			float: right;
+		}
+	}
+}
+.classes__item {
+	width: 50%;
+	float: left;
+}
+.classes__item__image {
+	width: 50%;
+}

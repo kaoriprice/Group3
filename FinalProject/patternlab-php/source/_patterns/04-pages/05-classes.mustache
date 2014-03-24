@@ -1,10 +1,10 @@
 <div class="page" id="page">
 	{{> organisms-header }}
 	<div class="main row">
-
-		<h1 class="page__title">{{ page-title }}</h1>
-		<p class="page__description">{{ page-description }}</p>
-
+		<div class="large-12 columns">
+			<h1 class="page__title">{{ page-title }}</h1>
+			<p class="page__description">{{ page-description }}</p>
+		</div>
 		<div class="row">
 				{{# classes}}
 					{{> molecules-classes-item}}
@@ -12,7 +12,7 @@
 			</div>
 		</div>
 
-		<div class="reveal-modal-bg" style="display: none"></div>
+		<div class="reveal-modal-bg"></div>
 
 		<div id="yogaModal" class="reveal-modal" data-reveal>
 			<h2 class="modal__title">Welcome to Yoga</h2>
