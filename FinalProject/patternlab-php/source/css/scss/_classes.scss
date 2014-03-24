@@ -6,13 +6,21 @@
 	}
 }
 .classes__item {
-	width: 50%;
 	float: left;
 	padding: 4em 3em;
-	
+}
+.classes__item__title {
+	color: $primaryBlue;
 }
 .classes__item__image {
 	width: 50%;
+	min-height: 24em;
+	padding: 0;
+	@media (max-width:1159px) {
+		width: 100%;
+		height: auto;
+		min-height: 0;
+	}
 }
 .class__item__button {
 	@extend .radius-button;

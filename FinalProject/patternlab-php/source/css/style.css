@@ -10210,17 +10210,31 @@ p {
 
 /* line 8, scss/_classes.scss */
 .classes__item {
-  width: 50%;
   float: left;
   padding: 4em 3em;
 }
 
-/* line 14, scss/_classes.scss */
-.classes__item__image {
-  width: 50%;
+/* line 12, scss/_classes.scss */
+.classes__item__title {
+  color: #2773a5;
 }
 
-/* line 21, scss/_classes.scss */
+/* line 15, scss/_classes.scss */
+.classes__item__image {
+  width: 50%;
+  min-height: 24em;
+  padding: 0;
+}
+@media (max-width: 1159px) {
+  /* line 15, scss/_classes.scss */
+  .classes__item__image {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+  }
+}
+
+/* line 29, scss/_classes.scss */
 .main .classes-wrapper {
   margin-bottom: 5rem;
 }
