@@ -87,7 +87,6 @@
 			"media__item__image": {
 				"class": "media__item__image",
 				"landscape-4x3": {
-
 					"src": "../../images/weight_training_01.jpg",
 					"alt": "4x3 Image"
 				}
