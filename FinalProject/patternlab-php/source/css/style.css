@@ -9627,14 +9627,14 @@ p {
 }
 
 /* line 22, scss/_global.scss */
-.radius-button, .self-promotion__button {
+.radius-button, .upper-footer .contact__button--submit, .self-promotion__button, .class-promotion__button {
   background: #f36657;
   -webkit-box-shadow: #e72511 0 4px;
   -moz-box-shadow: #e72511 0 4px;
   box-shadow: #e72511 0 4px;
 }
 /* line 25, scss/_global.scss */
-.radius-button:hover, .self-promotion__button:hover {
+.radius-button:hover, .upper-footer .contact__button--submit:hover, .self-promotion__button:hover, .class-promotion__button:hover {
   background: #f1503f;
 }
 
@@ -9645,8 +9645,14 @@ p {
   color: #e72511;
 }
 
+/* line 34, scss/_global.scss */
+.time {
+  font-size: 12px;
+  font-style: italic;
+}
+
 /*********** Header ********/
-/* line 37, scss/_global.scss */
+/* line 41, scss/_global.scss */
 .header {
   background: #e72511;
   /* The Fallback */
@@ -9654,23 +9660,29 @@ p {
   padding: 1em 0;
 }
 
-/* line 41, scss/_global.scss */
+/* line 45, scss/_global.scss */
 .logo {
   max-width: 18.75rem;
 }
+@media (max-width: 1075px) {
+  /* line 45, scss/_global.scss */
+  .logo {
+    max-width: 12.5rem;
+  }
+}
 
-/* line 44, scss/_global.scss */
+/* line 51, scss/_global.scss */
 .header__nav {
   float: right;
   margin-top: 1.4em;
 }
 
-/* line 48, scss/_global.scss */
+/* line 55, scss/_global.scss */
 .header__nav__button {
   margin-left: 0.2em;
 }
 
-/* line 51, scss/_global.scss */
+/* line 58, scss/_global.scss */
 .header__nav__link {
   color: #fff;
   display: block;
@@ -9680,32 +9692,163 @@ p {
   font-weight: 400;
   text-transform: none;
 }
-/* line 59, scss/_global.scss */
+/* line 66, scss/_global.scss */
 .header__nav__link:hover {
   color: #e72511;
   background: white;
 }
 
-/*********** Footer ********/
-/* line 66, scss/_global.scss */
-.upper-footer {
-  background: #eee;
-  padding: 2em;
+@media (max-width: 1075px) {
+  /* line 71, scss/_global.scss */
+  .mainNav {
+    display: none;
+  }
 }
 
-/* line 70, scss/_global.scss */
+/* line 76, scss/_global.scss */
+.mobile-menu {
+  margin: 0;
+}
+/* line 78, scss/_global.scss */
+.mobile-menu .main-nav__item {
+  list-style: none;
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+/* line 84, scss/_global.scss */
+.mobile-menu .main-nav__link {
+  color: #fff;
+  width: 100%;
+  padding: 0.625rem 0;
+  display: block;
+}
+/* line 90, scss/_global.scss */
+.mobile-menu .main-nav__link:hover, .mobile-menu .main-nav__link:visited {
+  background: #008cba;
+}
+
+/* line 93, scss/_global.scss */
+.right-off-canvas-toggle {
+  font-size: 2em;
+  position: absolute;
+  top: -65px;
+  right: 0;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 100, scss/_global.scss */
+.right-off-canvas-toggle:hover {
+  color: #174563;
+}
+
+@media (min-width: 1074px) {
+  /* line 104, scss/_global.scss */
+  .right-off-canvas-menu, .right-off-canvas-toggle {
+    display: none;
+  }
+}
+
+/*********** Footer ********/
+/* line 110, scss/_global.scss */
+.upper-footer {
+  background: #eeeeee;
+  padding: 2em;
+  color: #666666;
+  border-top: 0.5em solid #e1e1e1;
+}
+/* line 115, scss/_global.scss */
+.upper-footer abbr {
+  color: #666666;
+}
+/* line 116, scss/_global.scss */
+.upper-footer .contact__button--submit {
+  float: left;
+}
+/* line 120, scss/_global.scss */
+.upper-footer .social__header, .upper-footer .contact__header {
+  color: #174563;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+/* line 126, scss/_global.scss */
+.upper-footer .social__block:nth-child(2) {
+  margin-top: 2.5em;
+}
+/* line 127, scss/_global.scss */
+.upper-footer .address__company {
+  margin-top: 1.2em;
+}
+/* line 128, scss/_global.scss */
+.upper-footer .comment-form {
+  margin-top: 1em;
+}
+
+@media (min-width: 768px) {
+  /* line 131, scss/_global.scss */
+  .address__map {
+    max-width: 280px;
+  }
+}
+/* line 133, scss/_global.scss */
 .lower-footer {
   background: #aaa;
   color: #fff;
   padding: .8em;
 }
-/* line 74, scss/_global.scss */
+/* line 137, scss/_global.scss */
 .lower-footer a {
   color: #fff;
 }
-/* line 76, scss/_global.scss */
+/* line 139, scss/_global.scss */
 .lower-footer a:hover {
   color: #e72511;
+}
+/* line 141, scss/_global.scss */
+.lower-footer .footer__nav {
+  float: right;
+  margin: .3em 0 0 0;
+}
+/* line 145, scss/_global.scss */
+.lower-footer .footer__nav__button {
+  margin-left: 0 !important;
+}
+/* line 148, scss/_global.scss */
+.lower-footer .footer__nav__link {
+  color: #fff;
+  display: block;
+  padding: 0.3em;
+  margin-bottom: 0;
+  background: none;
+  font-weight: 400;
+  text-transform: none;
+}
+/* line 156, scss/_global.scss */
+.lower-footer .footer__nav__link:hover {
+  color: #e72511;
+  background: none;
+}
+/* line 161, scss/_global.scss */
+.lower-footer .divider {
+  color: #fff;
+}
+/* line 164, scss/_global.scss */
+.lower-footer .copyright {
+  margin-top: .8em;
+}
+@media (max-width: 767px) {
+  /* line 166, scss/_global.scss */
+  .lower-footer .footer__nav {
+    display: none;
+  }
+  /* line 167, scss/_global.scss */
+  .lower-footer .copyright {
+    text-align: center;
+  }
 }
 
 /*********** Hero ********/
@@ -9729,9 +9872,10 @@ p {
   margin-bottom: 1em;
   text-shadow: black 0 0 3em;
   font-weight: 400;
+  min-width: 25rem;
 }
 
-/* line 18, scss/_home.scss */
+/* line 19, scss/_home.scss */
 .hero__button {
   border-style: solid;
   border-width: 0px;
@@ -9769,7 +9913,7 @@ p {
 .hero__button:hover, .hero__button:focus {
   color: white;
 }
-/* line 25, scss/_home.scss */
+/* line 26, scss/_home.scss */
 .hero__button:hover {
   background: #2773a5;
   /* The Fallback */
@@ -9777,14 +9921,17 @@ p {
 }
 
 /*********** Why Us ********/
-/* line 32, scss/_home.scss */
+/* line 33, scss/_home.scss */
 .self-promotion-wrapper {
   background: url(../images/why-us.jpg) no-repeat;
   padding: 6em 0 12em 0;
   overflow: hidden;
+  -webkit-box-shadow: #bbbbbb 0 0 5px;
+  -moz-box-shadow: #bbbbbb 0 0 5px;
+  box-shadow: #bbbbbb 0 0 5px;
 }
 
-/* line 37, scss/_home.scss */
+/* line 39, scss/_home.scss */
 .self-promotion {
   padding: 2.7em 4em 3.2em 2.7em;
   background: white;
@@ -9792,26 +9939,26 @@ p {
   background: rgba(255, 255, 255, 0.7);
 }
 
-/* line 41, scss/_home.scss */
+/* line 43, scss/_home.scss */
 .self-promotion__content {
   font-size: 1.7rem;
   color: #666666;
   font-weight: 100;
 }
 
-/* line 46, scss/_home.scss */
+/* line 48, scss/_home.scss */
 .self-promotion__emphasis {
   background: #77b6df;
   color: white;
 }
 
-/* line 50, scss/_home.scss */
+/* line 52, scss/_home.scss */
 .self-promotion__button {
   float: right;
 }
 
 /*********** Join a Class ********/
-/* line 57, scss/_home.scss */
+/* line 59, scss/_home.scss */
 .class-promotion-background {
   position: absolute;
   top: 97em;
@@ -9821,9 +9968,45 @@ p {
   height: 50em;
 }
 
-/* line 65, scss/_home.scss */
+/* line 67, scss/_home.scss */
 .classes-promotion {
   padding: 4em 0;
+}
+
+/* line 70, scss/_home.scss */
+.class-figure {
+  margin: 0;
+  margin-top: 1em;
+  text-align: center;
+  position: relative;
+}
+/* line 76, scss/_home.scss */
+.class-figure .fig-caption {
+  position: absolute;
+  padding: 1em 0;
+  text-align: center;
+  background: white;
+  /* The Fallback */
+  background: rgba(255, 255, 255, 0.7);
+  display: block;
+  width: 90%;
+  bottom: 4em;
+  left: 1.3em;
+  font-size: 1.4em;
+  color: #666666;
+}
+
+/* line 89, scss/_home.scss */
+.class-image {
+  width: 90%;
+}
+
+/* line 92, scss/_home.scss */
+.class-promotion__button {
+  margin: 2.2em auto 0 auto;
+  display: block;
+  width: 20%;
+  min-width: 15.625rem;
 }
 
 /* line 1, scss/_staff.scss */
@@ -9832,7 +10015,7 @@ p {
   margin-bottom: 2.5em;
   padding: 20px;
   background-color: #fafafa;
-  border: 1px solid #eee;
+  border: 1px solid #ddd;
 }
 @media (max-width: 767px) {
   /* line 1, scss/_staff.scss */
@@ -9853,7 +10036,13 @@ p {
     max-width: 7.5em;
   }
 }
-/* line 18, scss/_staff.scss */
+@media (max-width: 767px) {
+  /* line 12, scss/_staff.scss */
+  .staffItem__image {
+    width: 100%;
+  }
+}
+/* line 21, scss/_staff.scss */
 .staffItem__image img {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -9862,15 +10051,70 @@ p {
   border-radius: 20px;
 }
 
-/* line 20, scss/_staff.scss */
+/* line 23, scss/_staff.scss */
 .staffItem__title {
   color: #2773a5;
   margin-bottom: 0;
 }
 
-/* line 24, scss/_staff.scss */
+/* line 27, scss/_staff.scss */
 .staffItem__position {
-  margin-bottom: 0;
+  margin-bottom: 5px;
   font-style: italic;
   font-size: .7em;
+}
+
+/* line 1, scss/_pricing.scss */
+.pricing-table {
+  margin-bottom: 3em;
+}
+/* line 3, scss/_pricing.scss */
+.pricing-table .title {
+  background: #174563;
+  font-size: 1.3em;
+}
+/* line 7, scss/_pricing.scss */
+.pricing-table .price__text {
+  padding-top: 1em;
+}
+/* line 10, scss/_pricing.scss */
+.pricing-table .self-promotion__button {
+  float: none;
+  margin-bottom: 1em;
+}
+
+/* line 15, scss/_pricing.scss */
+.trail {
+  margin-bottom: 5em;
+}
+/* line 17, scss/_pricing.scss */
+.trail .trial__text {
+  color: #bbbbbb;
+  margin-top: .7em;
+}
+@media (max-width: 767px) {
+  /* line 17, scss/_pricing.scss */
+  .trail .trial__text {
+    text-align: center;
+  }
+}
+/* line 24, scss/_pricing.scss */
+.trail .trail__button {
+  width: 100%;
+  background: #174563;
+}
+/* line 27, scss/_pricing.scss */
+.trail .trail__button:hover {
+  background: #2773a5;
+}
+
+/* line 30, scss/_pricing.scss */
+.businessPlan {
+  margin: 5em auto;
+  max-width: 440px;
+  padding: 1.25rem 2.5rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #2e516d;
+  line-height: 1.6em;
 }

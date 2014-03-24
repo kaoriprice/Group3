@@ -1,7 +1,7 @@
 3.2.11 (Media Mark)
-1388573380358364233737c6c793f2b3bf2d1d90
+f38daf6c1e2ce07fe1cdf1fdb82c8c1a195c6213
 o:Sass::Tree::RootNode
-:@template"Ž // Foundation by ZURB
+:@template"ž // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
 
@@ -59,14 +59,14 @@
 
 // We use these as default colors throughout
 	$primaryRed: #e72511;
-	$lightRed: #ff6446;
+	$lightRed: lighten($primaryRed, 16%);
 	$primaryBlue: #2773a5;
-	$lightBlue: lighten($primaryBlue, 7%);
-	$darkBlue: darken($primaryBlue, 7%);
-	$shade1: #eee;
-	$shade2: #bbb;
-	$shade3: #666;
-	$shade4: #333;
+	$lightBlue: lighten($primaryBlue, 27%);
+	$darkBlue: darken($primaryBlue, 16%);
+	$grey1: #eee;
+	$grey2: #bbb;
+	$grey3: #666;
+	$grey4: #333;
 // $primary-color: #008CBA;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
@@ -1313,7 +1313,11 @@ o;
 
 ;;;["4/* We use these as default colors throughout */;@;	[ ;i>o;;0;"primaryRed;o:Sass::Script::Color	;0;@:@attrs{	:rediç:
 alphai:
-greeni*:	bluei;i?;@;	[ ;i?o;;0;"lightRed;o;	;0;@;{	; iÿ;!i;"ii;#iK;i@;@;	[ ;i@o;;0;"primaryBlue;o;	;0;@;{	; i,;!i;"ix;#i¥;iA;@;	[ ;iAo;;0;"lightBlue;o;;"lighten;{ ;@;0;iB;[o:Sass::Script::Variable	;"primaryBlue;@:@underscored_name"primaryBlue;iBo;;[ ;i;@;["%;"7%;iB;@;	[ ;iBo;;0;"darkBlue;o;;"darken;{ ;@;0;iC;[o;$	;"primaryBlue;@;%"primaryBlue;iCo;;[ ;i;@;["%;"7%;iC;@;	[ ;iCo;;0;"shade1;o;	;0;@;{	; iî;!i;"iî;#iî;iD;@;	[ ;iDo;;0;"shade2;o;	;0;@;{	; i»;!i;"i»;#i»;iE;@;	[ ;iEo;;0;"shade3;o;	;0;@;{	; ik;!i;"ik;#ik;iF;@;	[ ;iFo;;0;"shade4;o;	;0;@;{	; i8;!i;"i8;#i8;iG;@;	[ ;iGo;
+greeni*:	bluei;i?;@;	[ ;i?o;;0;"lightRed;o;;"lighten;{ ;@;0;i@;[o:Sass::Script::Variable	;"primaryRed;@:@underscored_name"primaryRed;i@o;;[ ;i;@;["%;"16%;i@;@;	[ ;i@o;;0;"primaryBlue;o;	;0;@;{	; i,;!i;"ix;#i¥;iA;@;	[ ;iAo;;0;"lightBlue;o;;"lighten;{ ;@;0;iB;[o;$	;"primaryBlue;@;%"primaryBlue;iBo;;[ ;i ;@;["%;"27%;iB;@;	[ ;iBo;;0;"darkBlue;o;;"darken;{ ;@;0;iC;[o;$	;"primaryBlue;@;%"primaryBlue;iCo;;[ ;i;@;["%;"16%;iC;@;	[ ;iCo;;0;"
+grey1;o;	;0;@;{	; iî;!i;"iî;#iî;iD;@;	[ ;iDo;;0;"
+grey2;o;	;0;@;{	; i»;!i;"i»;#i»;iE;@;	[ ;iEo;;0;"
+grey3;o;	;0;@;{	; ik;!i;"ik;#ik;iF;@;	[ ;iFo;;0;"
+grey4;o;	;0;@;{	; i8;!i;"i8;#i8;iG;@;	[ ;iGo;
 
 ;;;["§/* $primary-color: #008CBA;
  * $secondary-color: #e7e7e7;

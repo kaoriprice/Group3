@@ -9609,14 +9609,45 @@ body {
 }
 
 /* line 9, scss/_global.scss */
-.button {
+p {
+  line-height: 1.4;
+}
+
+/* line 12, scss/_global.scss */
+.row {
+  width: 92%;
+}
+
+/* line 16, scss/_global.scss */
+.button,
+.content__title--level1 {
   text-transform: uppercase;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* line 22, scss/_global.scss */
+.radius-button, .self-promotion__button {
+  background: #f36657;
+  -webkit-box-shadow: #e72511 0 4px;
+  -moz-box-shadow: #e72511 0 4px;
+  box-shadow: #e72511 0 4px;
+}
+/* line 25, scss/_global.scss */
+.radius-button:hover, .self-promotion__button:hover {
+  background: #f1503f;
+}
+
+/* line 29, scss/_global.scss */
+.content__title--level1 {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  color: #e72511;
 }
 
 /*********** Header ********/
-/* line 16, scss/_global.scss */
+/* line 37, scss/_global.scss */
 .header {
   background: #e72511;
   /* The Fallback */
@@ -9624,23 +9655,23 @@ body {
   padding: 1em 0;
 }
 
-/* line 20, scss/_global.scss */
+/* line 41, scss/_global.scss */
 .logo {
   max-width: 18.75rem;
 }
 
-/* line 23, scss/_global.scss */
+/* line 44, scss/_global.scss */
 .header__nav {
   float: right;
   margin-top: 1.4em;
 }
 
-/* line 27, scss/_global.scss */
+/* line 48, scss/_global.scss */
 .header__nav__button {
   margin-left: 0.2em;
 }
 
-/* line 30, scss/_global.scss */
+/* line 51, scss/_global.scss */
 .header__nav__link {
   color: #fff;
   display: block;
@@ -9650,30 +9681,30 @@ body {
   font-weight: 400;
   text-transform: none;
 }
-/* line 38, scss/_global.scss */
+/* line 59, scss/_global.scss */
 .header__nav__link:hover {
   color: #e72511;
   background: white;
 }
 
 /*********** Footer ********/
-/* line 45, scss/_global.scss */
+/* line 66, scss/_global.scss */
 .upper-footer {
   background: #eee;
   padding: 2em;
 }
 
-/* line 49, scss/_global.scss */
+/* line 70, scss/_global.scss */
 .lower-footer {
   background: #aaa;
   color: #fff;
   padding: .8em;
 }
-/* line 53, scss/_global.scss */
+/* line 74, scss/_global.scss */
 .lower-footer a {
   color: #fff;
 }
-/* line 55, scss/_global.scss */
+/* line 76, scss/_global.scss */
 .lower-footer a:hover {
   color: #e72511;
 }
@@ -9681,7 +9712,7 @@ body {
 /*********** Hero ********/
 /* line 2, scss/_home.scss */
 .hero-intro {
-  padding: 20em;
+  padding: 20em 20em 15em 20em;
   text-align: center;
 }
 
@@ -9725,9 +9756,9 @@ body {
   color: white;
   background: #2773a5;
   /* The Fallback */
-  background: rgba(39, 115, 165, 0.8);
-  padding-left: 3rem;
-  padding-right: 3rem;
+  background: rgba(39, 115, 165, 0.7);
+  padding-left: 4rem;
+  padding-right: 4rem;
   font-weight: 700;
   font-size: 1.3rem;
 }
@@ -9738,4 +9769,111 @@ body {
 /* line 142, ../foundation/bower_components/foundation/scss/foundation/components/_buttons.scss */
 .hero__button:hover, .hero__button:focus {
   color: white;
+}
+<<<<<<< HEAD
+/* line 25, scss/_home.scss */
+.hero__button:hover {
+  background: #2773a5;
+  /* The Fallback */
+  background: rgba(39, 115, 165, 0.9);
+}
+
+/*********** Why Us ********/
+/* line 32, scss/_home.scss */
+.self-promotion-wrapper {
+  background: url(../images/why-us.jpg) no-repeat;
+  padding: 6em 0 12em 0;
+  overflow: hidden;
+}
+
+/* line 37, scss/_home.scss */
+.self-promotion {
+  padding: 2.7em 4em 3.2em 2.7em;
+  background: white;
+  /* The Fallback */
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* line 41, scss/_home.scss */
+.self-promotion__content {
+  font-size: 1.7rem;
+  color: #666666;
+  font-weight: 100;
+}
+
+/* line 46, scss/_home.scss */
+.self-promotion__emphasis {
+  background: #77b6df;
+  color: white;
+}
+
+/* line 50, scss/_home.scss */
+.self-promotion__button {
+  float: right;
+}
+
+/*********** Join a Class ********/
+/* line 57, scss/_home.scss */
+.class-promotion-background {
+  position: absolute;
+  top: 97em;
+  z-index: -10;
+  background: #e6f2f9;
+  width: 100%;
+  height: 50em;
+}
+
+/* line 65, scss/_home.scss */
+.classes-promotion {
+  padding: 4em 0;
+=======
+
+/* line 1, scss/_staff.scss */
+.staffItem {
+  overflow: hidden;
+  margin-bottom: 2.5em;
+  padding: 20px;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+}
+@media (max-width: 767px) {
+  /* line 1, scss/_staff.scss */
+  .staffItem {
+    padding-top: 1.5em;
+    text-align: center;
+  }
+}
+
+/* line 12, scss/_staff.scss */
+.staffItem__image {
+  margin-right: 1.5em;
+}
+@media (min-width: 768px) {
+  /* line 12, scss/_staff.scss */
+  .staffItem__image {
+    float: left;
+    max-width: 7.5em;
+  }
+}
+/* line 18, scss/_staff.scss */
+.staffItem__image img {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 20, scss/_staff.scss */
+.staffItem__title {
+  color: #2773a5;
+  margin-bottom: 0;
+}
+
+/* line 24, scss/_staff.scss */
+.staffItem__position {
+  margin-bottom: 0;
+  font-style: italic;
+  font-size: .7em;
+>>>>>>> 422c81405c2e5f171f1f253483d2f83b7469e1a7
 }

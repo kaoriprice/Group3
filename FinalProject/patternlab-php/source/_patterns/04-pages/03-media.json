@@ -4,82 +4,87 @@
 	"bodyClass": "media",
 	"media__item":[
 		{
-			"img": {
-				"class": "media__item",
+			"media__item__image": {
+				"class": "media__item__img",
 				"landscape-4x3": {
 					"src": "../../images/yoga_01.jpg",
 					"alt": "4x3 Image"
 				}
 			},
-			"h3": {
-				"class": "media__item__header"
+			"media__item__title": {
+				"class": "content__title--level2",
+				"content": "Example Title"
 			},
-			"figcaption":{
-				"class": "media__item__content"
+			"media__item__description":{
+				"class": "media__item__description content__description"
 			}
 		},
 		{
-			"img": {
+			"media__item__image": {
 				"class": "media__item",
 				"landscape-4x3": {
 					"src": "../../images/yoga_02.jpg",
 					"alt": "4x3 Image"
 				}
 			},
-			"h3": {
-				"class": "media__item__header"
+			"media__item__title": {
+				"class": "content__title--level2",
+				"content": "Example Title"
 			},
-			"figcaption":{
-				"class": "media__item__content"
+			"media__item__description":{
+				"class": "media__item__description content__description"
 			}
 		},
 		{
-			"img": {
+			"media__item__image": {
 				"class": "media__item",
 				"landscape-4x3": {
 					"src": "../../images/zumba_01.jpg",
 					"alt": "4x3 Image"
 				}
 			},
-			"h3": {
-				"class": "media__item__header"
+			"media__item__title": {
+				"class": "content__title--level2",
+				"content": "Example Title"
 			},
-			"figcaption":{
-				"class": "media__item__content"
+			"media__item__description":{
+				"class": "media__item__description content__description"
 			}
 		},
 		{
-			"img": {
+			"media__item__image": {
 				"class": "media__item",
 				"landscape-4x3": {
 					"src": "../../images/zumba_02.jpg",
 					"alt": "4x3 Image"
 				}
 			},
-			"h3": {
-				"class": "media__item__header"
+			"media__item__title": {
+				"class": "content__title--level2",
+				"content": "Example Title"
 			},
-			"figcaption":{
-				"class": "media__item__content"
+			"media__item__description":{
+				"class": "media__item__description content__description"
 			}
 		},
 		{
-			"img": {
+			"media__item__image": {
 				"class": "media__item",
 				"landscape-4x3": {
 					"src": "../../images/running_02.jpg",
 					"alt": "4x3 Image"
 				}
 			},
-			"h3": {
-				"class": "media__item__header"
+			"media__item__title": {
+				"class": "content__title--level2",
+				"content": "Example Title"
 			},
-			"figcaption":{
-				"class": "media__item__content"
+			"media__item__description":{
+				"class": "media__item__description content__description"
 			}
 		},
 		{
-			"img": {
+			"media__item__image": {
 				"class": "media__item",
 				"landscape-4x3": {
 
@@ -87,56 +92,60 @@
 					"alt": "4x3 Image"
 				}
 			},
-			"h3": {
-				"class": "media__item__header"
+			"media__item__title": {
+				"class": "content__title--level2",
+				"content": "Example Title"
 			},
-			"figcaption":{
-				"class": "media__item__content"
+			"media__item__description":{
+				"class": "media__item__description content__description"
 			}
 		},
 		{
-			"img": {
+			"media__item__image": {
 				"class": "media__item",
 				"landscape-4x3": {
 					"src": "../../images/weight_lifting_01.jpg",
 					"alt": "4x3 Image"
 				}
 			},
-			"h3": {
-				"class": "media__item__header"
+			"media__item__title": {
+				"class": "content__title--level2",
+				"content": "Example Title"
 			},
-			"figcaption":{
-				"class": "media__item__content"
+			"media__item__description":{
+				"class": "media__item__description content__description"
 			}
 		},
 		{
-			"img": {
+			"media__item__image": {
 				"class": "media__item",
 				"landscape-4x3": {
 					"src": "../../images/random_01.jpg",
 					"alt": "4x3 Image"
 				}
 			},
-			"h3": {
-				"class": "media__item__header"
+			"media__item__title": {
+				"class": "content__title--level2",
+				"content": "Example Title"
 			},
-			"figcaption":{
-				"class": "media__item__content"
+			"media__item__description":{
+				"class": "media__item__description content__description"
 			}
 		},
 		{
-			"img": {
+			"media__item__image": {
 				"class": "media__item",
 				"landscape-4x3": {
 					"src": "../../images/running_01.jpg",
 					"alt": "4x3 Image"
 				}
 			},
-			"h3": {
-				"class": "media__item__header"
+			"media__item__title": {
+				"class": "content__title--level2",
+				"content": "Example Title"
 			},
-			"figcaption":{
-				"class": "media__item__content"
+			"media__item__description":{
+				"class": "media__item__description content__description"
 			}
 		}
 	]

@@ -3,7 +3,7 @@
 	margin-bottom: 2.5em;
 	padding: 20px;
 	background-color: #fafafa;
-	border: 1px solid #eee;
+	border: 1px solid #ddd;
 	 @media(max-width:767px) {
 	 	padding-top: 1.5em;
 	 	text-align: center;
@@ -15,6 +15,9 @@
 		float: left;
 		max-width:7.5em;
 	}
+	@media(max-width:767px) {
+		width: 100%;
+	}
 	img { @include border-radius(20px); }
 }
 .staffItem__title {
@@ -22,7 +25,7 @@
 	margin-bottom: 0;
 }
 .staffItem__position { 
-	margin-bottom: 0;
+	margin-bottom: 5px;
 	font-style: italic;
 	font-size: .7em;
 }

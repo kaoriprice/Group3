@@ -31,6 +31,10 @@ p {
 	margin-bottom: 1.2rem;
 	color: $primaryRed;
 }
+.time { 
+	font-size: 12px;
+	font-style: italic;
+}
 
 
 /*********** Header ********/
@@ -40,6 +44,9 @@ p {
 }
 .logo { 
 	max-width: rem-calc(300);
+	@media(max-width:1075px) {
+		max-width: rem-calc(200);
+	}
 }
 .header__nav {
 	float: right;
@@ -61,11 +68,67 @@ p {
 		background: white;
 	}
 }
-
+.mainNav {
+	@media(max-width:1075px) {
+		display: none;
+	}
+}
+.mobile-menu {
+	margin: 0;
+	.main-nav__item {
+		list-style: none;
+		font-size: 1.5em;
+		text-align: center;
+		border-bottom:1px solid #fff;
+	}
+	.main-nav__link { 
+		color: #fff;
+		width: 100%;
+		padding: rem-calc(10) 0;
+		display: block;
+		&:hover,
+		&:visited { background: $primary-color; }
+	}
+}
+.right-off-canvas-toggle {
+	font-size: 2em;
+	position: absolute;
+	top: -65px;
+	right: 0;
+	color: #fff;
+	@include transition(.3s);
+	&:hover {
+		color: $darkBlue;
+	}
+}
+.right-off-canvas-menu, .right-off-canvas-toggle {
+	@media(min-width:1074px) {
+		display: none;
+	}
+}
 /*********** Footer ********/
 .upper-footer {
-	background: #eee;
+	background: $grey1;
 	padding: 2em;
+	color: $grey3;
+	border-top: 0.5em solid darken($grey1, 5%);
+	abbr { color: $grey3; }
+	.contact__button--submit {
+		@extend .radius-button;
+		float: left;
+	}
+	.social__header, .contact__header {
+		color: $darkBlue;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 1.4em;
+	}
+	.social__block:nth-child(2) { margin-top: 2.5em;}
+	.address__company { margin-top: 1.2em; }
+	.comment-form { margin-top: 1em; }
+}
+@media( min-width:768px) {
+	.address__map { max-width:280px; }
 }
 .lower-footer {
 	background: #aaa;
@@ -74,5 +137,33 @@ p {
 	a { 
 		color: #fff;
 		&:hover { color: $primaryRed;}
+	}
+	.footer__nav { 
+		float: right;
+		margin: .3em 0 0 0;
+	}
+	.footer__nav__button {
+		margin-left: 0 !important;
+	}
+	.footer__nav__link {
+		color: #fff;
+		display: block;
+		padding: 0.3em;
+		margin-bottom: 0;
+		background: none;
+		font-weight: 400;
+		text-transform: none;
+		&:hover {
+			color: $primaryRed;
+			background: none;
+		}
+	}
+	.divider {
+		 color: #fff; 
+	}
+	.copyright { margin-top: .8em; }
+	@media(max-width:767px) {
+		.footer__nav { display:none; }
+		.copyright { text-align: center;}
 	}
 }

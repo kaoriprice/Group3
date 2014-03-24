@@ -14,6 +14,7 @@
 	margin-bottom: 1em;
 	@include text-shadow(#000 0 0 3em);
 	font-weight: 400;
+	min-width: rem-calc(400);
 }
 .hero__button {
 	@include button(1rem);
@@ -33,6 +34,7 @@
 	background: url(../images/why-us.jpg) no-repeat;
 	padding: 6em 0 12em 0;
 	overflow: hidden;
+	@include box-shadow($grey2 0 0 5px);
 }
 .self-promotion {
 	padding: 2.7em 4em 3.2em 2.7em;
@@ -64,4 +66,33 @@
 }
 .classes-promotion {
 	padding: 4em 0;
+}
+.class-figure {
+	margin: 0;
+	margin-top: 1em;
+	text-align: center;
+	position: relative;
+
+	.fig-caption {
+		position: absolute;
+		padding: 1em 0;
+		text-align: center;
+		@include background-opacity(white, 0.7);
+		display: block;
+		width: 90%;
+		bottom: 4em;
+		left: 1.3em;
+		font-size: 1.4em;
+		color: $grey3;
+	}
+}
+.class-image {
+	width: 90%;
+}
+.class-promotion__button {
+	@extend .radius-button;
+	margin: 2.2em auto 0 auto;
+	display: block;
+	width: 20%;
+	min-width: rem-calc(250);
 }

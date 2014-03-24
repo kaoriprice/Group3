@@ -31,22 +31,26 @@
 			"content-title1" : "Wanna Join A Class?",
 			"class" : [
 				{
+					"figure-class" : "class-figure",
 					"img-landscape" : {
 						"src" : "../../images/yoga-front.jpg",
-						"alt" : "Yoga Class"
+						"alt" : "Yoga Class",
+						"class" : "class-image"
 					},
 					"img-caption" : "Yoga"
 				},
 				{
+					"figure-class" : "class-figure",
 					"img-landscape" : {
 						"src" : "../../images/zumba-front.jpg",
-						"alt" : "Zumba Class"
+						"alt" : "Zumba Class",
+						"class" : "class-image"
 					},
 					"img-caption" : "Zumba"
 				}
 			],
 			"btn" : {
-				"class" : "radius",
+				"class" : "radius class-promotion__button",
 				"text" : "See More Classes"
 			}
 		}
