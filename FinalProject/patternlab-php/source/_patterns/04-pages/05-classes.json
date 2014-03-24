@@ -7,8 +7,7 @@
 	"classes":[
 		{
 			"classes__item":{
-			"class":"classes__item large-6 columns",
-			"style": "float:left;"
+				"class":"classes__item"
 			},
 			"classes__item__title":{
 				"class":"classes__item__title content__title--level1",
@@ -19,7 +18,6 @@
 			},
 			"classes__item__image": {
 				"class": "classes__item__image large-6 columns",
-				"style": "float:right",
 				"landscape-16x9": {
 					"src": "../../images/yoga-class.jpg",
 					"alt": "Woman in yoga poses"
@@ -28,8 +26,7 @@
 		},
 		{
 			"classes__item":{
-			"class":"classes__item large-6 columns last",
-			"style": "float:right;"
+				"class":"classes__item"
 			},
 			"classes__item__title":{
 				"class":"classes__item__title content__title--level1",
@@ -40,8 +37,7 @@
 
 			},
 			"classes__item__image": {
-				"class": "classes__item__image large-6 columns",
-				"style": "float:left;",
+				"class": "classes__item__image",
 				"landscape-16x9": {
 					"src": "../../images/zumba-class.jpg",
 					"alt": "dozens of women jumping in a zumba class"
@@ -50,9 +46,7 @@
 		},
 		{
 			"classes__item":{
-			"class":"classes__item large-6 columns",
-
-			"style": "float:left;" 
+				"class":"classes__item"
 			},
 			"classes__item__title":{
 				"class":"classes__item__title content__title--level1",
@@ -63,8 +57,7 @@
 
 			},
 			"classes__item__image": {
-				"class": "classes__item__image large-6 columns",
-				"style": "float:right;",
+				"class": "classes__item__image",
 				"landscape-16x9": {
 					"src": "../../images/abs-class.jpg",
 					"alt": "Man kneeling on the floor and pulling a weight machine"
