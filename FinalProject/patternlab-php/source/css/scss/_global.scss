@@ -11,6 +11,14 @@ p {
 }
 .row {
 	width: 92%;
+	.row {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+.page-title {
+	color: $primaryRed;
+	margin: 1em 0 0.6em 0;
 }
 .button,
 .content__title--level1 {
@@ -30,6 +38,11 @@ p {
 	font-size: 1.4rem;
 	margin-bottom: 1.2rem;
 	color: $primaryRed;
+}
+.content__title--level2 {
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+	color: $primaryBlue;
 }
 .time { 
 	font-size: 12px;
