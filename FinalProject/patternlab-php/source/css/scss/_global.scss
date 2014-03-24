@@ -108,11 +108,13 @@ p {
 }
 /*********** Footer ********/
 .upper-footer {
-	background: #eee;
+	background: $grey1;
 	padding: 2em;
-	color: #777;
-	abbr { color: #777; }
-	.self-promotion__button {
+	color: $grey3;
+	border-top: 0.5em solid darken($grey1, 5%);
+	abbr { color: $grey3; }
+	.contact__button--submit {
+		@extend .radius-button;
 		float: left;
 	}
 	.social__header, .contact__header {
@@ -121,11 +123,12 @@ p {
 		text-transform: uppercase;
 		font-size: 1.4em;
 	}
-	.social__block.facebook { margin-top: 2.5em;}
-	@media( min-width:768px) {
-		.address__map { max-width:280px; }
-	}
-	.address__company { margin-top: .7em; }
+	.social__block:nth-child(2) { margin-top: 2.5em;}
+	.address__company { margin-top: 1.2em; }
+	.comment-form { margin-top: 1em; }
+}
+@media( min-width:768px) {
+	.address__map { max-width:280px; }
 }
 .lower-footer {
 	background: #aaa;
