@@ -9866,18 +9866,23 @@ p {
 /*********** Hero ********/
 /* line 2, scss/_home.scss */
 .hero-intro {
-  padding: 20em 20em 15em 20em;
   text-align: center;
 }
+@media (min-width: 767px) {
+  /* line 2, scss/_home.scss */
+  .hero-intro {
+    padding: 20em 20em 15em 20em;
+  }
+}
 
-/* line 6, scss/_home.scss */
+/* line 8, scss/_home.scss */
 .hero__image {
   position: absolute;
   z-index: -10;
   top: 0;
 }
 
-/* line 11, scss/_home.scss */
+/* line 13, scss/_home.scss */
 .hero__message {
   color: white;
   font-size: 2.2em;
@@ -9886,8 +9891,15 @@ p {
   font-weight: 400;
   min-width: 25rem;
 }
+@media (max-width: 767px) {
+  /* line 13, scss/_home.scss */
+  .hero__message {
+    font-size: 1.3rem;
+    padding: 0 1em;
+  }
+}
 
-/* line 19, scss/_home.scss */
+/* line 25, scss/_home.scss */
 .hero__button {
   border-style: solid;
   border-width: 0px;
@@ -9925,15 +9937,21 @@ p {
 .hero__button:hover, .hero__button:focus {
   color: white;
 }
-/* line 26, scss/_home.scss */
+/* line 32, scss/_home.scss */
 .hero__button:hover {
   background: #2773a5;
   /* The Fallback */
   background: rgba(39, 115, 165, 0.9);
 }
+@media (max-width: 767px) {
+  /* line 25, scss/_home.scss */
+  .hero__button {
+    font-size: 1rem;
+  }
+}
 
 /*********** Why Us ********/
-/* line 33, scss/_home.scss */
+/* line 42, scss/_home.scss */
 .self-promotion-wrapper {
   background: url(../images/why-us.jpg) no-repeat;
   padding: 6em 0 12em 0;
@@ -9943,7 +9961,7 @@ p {
   box-shadow: #bbbbbb 0 0 5px;
 }
 
-/* line 39, scss/_home.scss */
+/* line 48, scss/_home.scss */
 .self-promotion {
   padding: 2.7em 4em 3.2em 2.7em;
   background: white;
@@ -9951,26 +9969,26 @@ p {
   background: rgba(255, 255, 255, 0.7);
 }
 
-/* line 43, scss/_home.scss */
+/* line 52, scss/_home.scss */
 .self-promotion__content {
   font-size: 1.7rem;
   color: #666666;
   font-weight: 100;
 }
 
-/* line 48, scss/_home.scss */
+/* line 57, scss/_home.scss */
 .self-promotion__emphasis {
   background: #77b6df;
   color: white;
 }
 
-/* line 52, scss/_home.scss */
+/* line 61, scss/_home.scss */
 .self-promotion__button {
   float: right;
 }
 
 /*********** Join a Class ********/
-/* line 59, scss/_home.scss */
+/* line 68, scss/_home.scss */
 .class-promotion-background {
   position: absolute;
   top: 97em;
@@ -9980,19 +9998,19 @@ p {
   height: 50em;
 }
 
-/* line 67, scss/_home.scss */
+/* line 76, scss/_home.scss */
 .classes-promotion {
   padding: 4em 0;
 }
 
-/* line 70, scss/_home.scss */
+/* line 79, scss/_home.scss */
 .class-figure {
   margin: 0;
   margin-top: 1em;
   text-align: center;
   position: relative;
 }
-/* line 76, scss/_home.scss */
+/* line 85, scss/_home.scss */
 .class-figure .fig-caption {
   position: absolute;
   padding: 1em 0;
@@ -10008,12 +10026,12 @@ p {
   color: #666666;
 }
 
-/* line 89, scss/_home.scss */
+/* line 98, scss/_home.scss */
 .class-image {
   width: 90%;
 }
 
-/* line 92, scss/_home.scss */
+/* line 101, scss/_home.scss */
 .class-promotion__button {
   margin: 2.2em auto 0 auto;
   display: block;

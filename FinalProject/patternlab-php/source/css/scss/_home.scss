@@ -1,7 +1,9 @@
 /*********** Hero ********/
 .hero-intro {
-	padding: 20em 20em 15em 20em;
 	text-align: center;
+	@media(min-width:767px) {
+		padding: 20em 20em 15em 20em;
+	}
 }
 .hero__image {
 	position: absolute;
@@ -15,6 +17,10 @@
 	@include text-shadow(#000 0 0 3em);
 	font-weight: 400;
 	min-width: rem-calc(400);
+	@media(max-width:767px) {
+		font-size: 1.3rem;
+		padding: 0 1em;
+	}
 }
 .hero__button {
 	@include button(1rem);
@@ -25,6 +31,9 @@
 	font-size: 1.3rem;
 	&:hover {
 		@include background-opacity($primaryBlue, 0.9);
+	}
+	@media(max-width:767px) {
+		font-size: 1rem;
 	}
 }
 
