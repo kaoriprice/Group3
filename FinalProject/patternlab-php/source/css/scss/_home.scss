@@ -1,12 +1,20 @@
 /*********** Hero ********/
 .hero-intro {
-	padding: 20em 20em 15em 20em;
 	text-align: center;
+	@media(min-width:980px) {
+		padding: 20em 20em 15em 20em;
+	}
+	@media(max-width:979px) {
+		margin-top:20%;
+	}
 }
 .hero__image {
 	position: absolute;
 	z-index: -10;
 	top: 0;
+	@media(max-width:979px) {
+		top: 6.438em;
+	}
 }
 .hero__message {
 	color: white;
@@ -15,6 +23,10 @@
 	@include text-shadow(#000 0 0 3em);
 	font-weight: 400;
 	min-width: rem-calc(400);
+	@media(max-width:979px) {
+		font-size: 1.3rem;
+		padding: 0 1em;
+	}
 }
 .hero__button {
 	@include button(1rem);
@@ -25,6 +37,9 @@
 	font-size: 1.3rem;
 	&:hover {
 		@include background-opacity($primaryBlue, 0.9);
+	}
+	@media(max-width:767px) {
+		font-size: 1rem;
 	}
 }
 
