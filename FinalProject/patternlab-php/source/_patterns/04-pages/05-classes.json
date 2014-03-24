@@ -17,7 +17,7 @@
 				"class":"classes__item__description"
 			},
 			"classes__item__image": {
-				"class": "classes__item__image large-6 columns",
+				"class": "classes__item__image",
 				"landscape-16x9": {
 					"src": "../../images/yoga-class.jpg",
 					"alt": "Woman in yoga poses"
@@ -26,7 +26,7 @@
 		},
 		{
 			"classes__item":{
-				"class":"classes__item"
+				"class":"classes__item odd"
 			},
 			"classes__item__title":{
 				"class":"classes__item__title content__title--level1",
