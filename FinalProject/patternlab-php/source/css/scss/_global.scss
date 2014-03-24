@@ -39,11 +39,6 @@ p {
 	margin-bottom: 1.2rem;
 	color: $primaryRed;
 }
-.content__title--level2 {
-	font-size: 1.3rem;
-	margin-bottom: 1rem;
-	color: $primaryBlue;
-}
 .time { 
 	font-size: 12px;
 	font-style: italic;
@@ -106,7 +101,7 @@ p {
 .right-off-canvas-toggle {
 	font-size: 2em;
 	position: absolute;
-	top: -65px;
+	top: -40px;
 	right: 0;
 	color: #fff;
 	@include transition(.3s);

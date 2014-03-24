@@ -135,7 +135,7 @@
 			"media__item__image": {
 				"class": "media__item__image",
 				"landscape-4x3": {
-					"src": "../../images/running_01.jpg",
+					"src": "../../images/running_02.jpg",
 					"alt": "4x3 Image"
 				}
 			},

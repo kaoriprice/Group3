@@ -3,7 +3,7 @@ var comments = {
 	{
 		"el": ".header",
 		"title" : "Header",
-		"comment": "The header has *px*, *color* border at the bottom.</p>"
+		"comment": "The header is primary red with alpha 0.8, and has 1em padding on top and bottom.</p>"
 	},
 	{
 		"el": ".logo",
@@ -13,7 +13,7 @@ var comments = {
 	{
 		"el": ".header__nav__button",
 		"title" : "Global navigation",
-		"comment": "<p>Navigation style changes depending on the viewport size. On a bigger screen, all the navigation buttons are visible. For a amaller screen, they collapse to a single button \"Menu\". When the Menu button is clicked, the whole navigation options slide out from the right hand side.</p><p>When all the navigation buttons are shown, the selected state is indicated by the brand color (red), and the hover state a lightly ligher version of the red.</p>"
+		"comment": "<p>Navigation style changes depending on the viewport size. On a bigger screen, all the navigation buttons are visible. For a amaller screen, they collapse to a single button \"Menu\". When the Menu button is clicked, the whole navigation options slide out from the right hand side.</p><p>When all the navigation buttons are shown, the hover state is indicated by white background.</p>"
 	},
 	{
 		"el": ".hero__image",
@@ -28,7 +28,7 @@ var comments = {
 	{
 		"el": ".hero__button",
 		"title" : "Sign up button",
-		"comment": "<p>The sign up button should be a rounded, *red* button with a plenty of padding around the text.</p>"
+		"comment": "<p>The sign up button should be a rounded, primaryBlue, with a plenty of padding around the text.</p>"
 	},
 	{
 		"el": ".page__title",
@@ -38,17 +38,17 @@ var comments = {
 	{
 		"el": ".page__description",
 		"title" : "Page description",
-		"comment": "<p>The page description should be in *gray*, *font size* in *font name*. It should be between *30 words* to *50 words*.</p>"
+		"comment": "<p>The page description should be in gray. It should be between *30 words* to *50 words*.</p>"
 	},
 	{
 		"el": ".content__title--level1",
 		"title" : "Class title",
-		"comment": "<p>The header 1 is the biggest header used on the main content of the page. It should be *color*, *font size* in *font type*.</p>"
+		"comment": "<p>The header 1 is the biggest header used on the main content of the page. It should be in primaryRed.</p>"
 	},
 	{
 		"el": ".content__title--level2",
 		"title" : "Header 2",
-		"comment": "<p>The header 2 is the second biggest header used on the main content of the page. It should be *color*, *font size* in *font type*.</p>"
+		"comment": "<p>The header 2 is the second biggest header used on the main content of the page. It should be black.</p>"
 	},
 	{
 		"el": ".content__tagline",
@@ -63,7 +63,7 @@ var comments = {
 	{
 		"el": ".content__button",
 		"title" : "Class button",
-		"comment": "<p>The navigation button has slightly rounded corners. It should be in *red* and when it's hovered, it changes to a darker *red*.</p>"
+		"comment": "<p>The navigation button has slightly rounded corners. It should be in primaryRed and when it's hovered, it changes to a darker *red*.</p>"
 	},
 	{
 		"el": ".classes__item__image",
@@ -83,12 +83,12 @@ var comments = {
 	{
 		"el": ".footer__description",
 		"title" : "text paragraph in the footer",
-		"comment": "<p>text paragraph used in the footer should be in *gray*, *font size* in *font name*. The line-height should be *line_height*.</p>"
+		"comment": "<p>text paragraph used in the footer should be in black.</p>"
 	},
 	{
 		"el": ".form__input--box",
 		"title" : "Input box",
-		"comment": "<p>The input box of a form should have *padding*/*margin*, and has a *border* around it. The placeholder goes inside of the box and should indicate the type of data to input.</p>"
+		"comment": "<p>The input box of a form should have 0.5rem, and has a faint border around it. The placeholder goes inside of the box and should indicate the type of data to input.</p>"
 	},
 	{
 		"el": ".form__submit",
@@ -98,7 +98,7 @@ var comments = {
 	{
 		"el": ".map",
 		"title" : "Map",
-		"comment": "<p>The map should be *size*. </p>"
+		"comment": "<p>The map should be 4x3. </p>"
 	},
 ]
 };

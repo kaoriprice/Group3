@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width" />
 		
-		<link rel="stylesheet" href="../../css/style.css?1395527712" media="all" />
+		<link rel="stylesheet" href="../../css/style.css?1395684756" media="all" />
 
 		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
 				<!-- never cache patterns -->
@@ -15,7 +15,7 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1395527712" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1395684756" media="all">
 		
 
 		<!-- End Pattern Lab -->
@@ -27,11 +27,11 @@
 	<div class="container">
 	<header class="header cf" role="banner">
 		<div class="row">
-	    	<div class="large-4 columns">
+	    	<div class="large-3 small-6 columns">
 			<a href="#"><img src="../../images/logo.png" class="logo" alt="Logo" /></a>			</div>	
-	        <div class="large-8 columns">
+			<div class="large-9 columns">
 			<nav id="nav" class="header__nav">
-				<ul class="inline-list">
+				<ul class="inline-list mainNav">
 					<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Pricing</a></li>
 					<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Features</a></li>
 					<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Classes</a></li>
@@ -40,7 +40,20 @@
 					<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Blog</a></li>
 				</ul>
 			</nav><!--end #nav-->
-			</div>	
+			<div class="large-8 columns">
+				<a class="right-off-canvas-toggle icon-menu" href="#" >&nbsp;</a>
+				<aside class="right-off-canvas-menu">
+					<ul class="mobile-menu">
+				        <li class="main-nav__item"><a href="pages/pricing.html" class="main-nav__link">Pricing</a></li>
+				        <li class="main-nav__item"><a href="#" class="main-nav__link">Features</a></li>
+				        <li class="main-nav__item"><a href="pages/classes.html" class="main-nav__link">Classes</a></li>
+				        <li class="main-nav__item"><a href="pages/staff.html" class="main-nav__link">Staff</a></li>
+				        <li class="main-nav__item"><a href="pages/media.html" class="main-nav__link">Media</a></li>
+				        <li class="main-nav__item"><a href="#" class="main-nav__link">Blog</a></li>
+				      </ul>
+				</aside>
+			</div>
+			</div>
 		</div>
 	</header>
 	</div>
@@ -56,17 +69,20 @@
 				</div>
 			</div>		
 		<div class="class-promotion-background"></div>
-			<section class="row classes-promotion">
-				<div class="large-12 columns">
-		<h2 class="content__title--level1">Wanna Join A Class?</h2>				</div>
-
-					<div class="large-6 columns"> 
-			<figure>
-	<img src="../../images/yoga-front.jpg" alt="Yoga Class" />	<figcaption class="fig-caption">Yoga</figcaption>			</figure>					</div>
-					<div class="large-6 columns"> 
-			<figure>
-	<img src="../../images/zumba-front.jpg" alt="Zumba Class" />	<figcaption class="fig-caption">Zumba</figcaption>			</figure>					</div>
-	<p><a href="#" class="button radius">See More Classes</a></p>			</section>	
+			<section class="classes-promotion">
+				<div class="row">
+					<div class="large-12 columns">
+			<h2 class="content__title--level1">Wanna Join A Class?</h2>					</div>
+				
+						<div class="large-6 columns"> 
+				<figure class="class-figure">
+	<img class="class-image" src="../../images/yoga-front.jpg" alt="Yoga Class" />	<figcaption class="fig-caption">Yoga</figcaption>				</figure>						</div>
+						<div class="large-6 columns"> 
+				<figure class="class-figure">
+	<img class="class-image" src="../../images/zumba-front.jpg" alt="Zumba Class" />	<figcaption class="fig-caption">Zumba</figcaption>				</figure>						</div>
+				</div>
+				
+	<p><a href="#" class="button radius class-promotion__button">See More Classes</a></p>			</section>	
 	</div><!--End .main-->
 	<!-- Begin Footer -->
 	<footer class="footer" role="contentinfo">
@@ -74,8 +90,8 @@
 	        <div class="row">
 	          <div class="footer__column location large-4 columns">
               <div class="address">
-              	<a href="https://www.google.com/maps/place/Hollywood+Fitness/@45.5403938,-122.6095591,17z/data=!3m1!4b1!4m2!3m1!1s0x5495a12f3146e55b:0xbefafee517b12398" target="_blank"><img src="../../images/map.png" alt="map" /></a>
-              	<p>5223 NE Sandy Blvd.<br/>
+              	<a href="https://www.google.com/maps/place/Hollywood+Fitness/@45.5403938,-122.6095591,17z/data=!3m1!4b1!4m2!3m1!1s0x5495a12f3146e55b:0xbefafee517b12398" target="_blank"><img src="../../images/map.png" alt="map" class="address__map"/></a>
+              	<p class="address__company">5223 NE Sandy Blvd.<br/>
               	Portland,<abbr> OR </abbr>97213<br/>
               	Tel: 503-281-4776
               </div>	          </div>
@@ -88,41 +104,39 @@
               <p class="social__content">This is the latest post from Facebook, liquorice lemon drops applicake sweet tootsie roll cookie topping tiramisu. <span class="time"><time datetime="2013-04-06T12:32+00:00">2 weeks ago</time></span></p>
             </article>	          </div>
 	          <div class="footer__column contact large-4 columns">
+              <h3 class="contact__header">Contact Us</h3>
               <form method="post" action="#" class="comment-form">
-              		  <h3 class="contact__header">Contact Us</h3>
-              	      <div class="row">
-              	        <div class="large-8 columns">
-              	          <p class="contact__field"><input class="contact__field--name" type="text" placeholder="Name"></p>
-              	        </div>
-              	      </div>
-              	      <div class="row">
-              	        <div class="large-8 columns">
-              	          <p class="contact__field"><input class="contact__field--email" type="text" placeholder="Email"></p>
-              	        </div>
-              	      </div>
-              	      <div class="row">
-              	        <div class="large-12 columns">
-              	          <p class="contact__field"><textarea class="contact__field--message" name="message" placeholder="Message"></textarea></p>
-              	        </div>
-              	      </div>
-              	      <p class="contact__button"><input class="contact__button--submit small radius button" type="submit" value="Send Message"></p>
+                
+                <div class="row">
+                  <div class="large-8 columns">
+                    <p class="contact__field"><input class="contact__field--name" type="text" placeholder="Name"></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-8 columns">
+                    <p class="contact__field"><input class="contact__field--email" type="text" placeholder="Email"></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <p class="contact__field"><textarea class="contact__field--message" name="message" placeholder="Message"></textarea></p>
+                  </div>
+                </div>
+                <p class="contact__button"><input class="contact__button--submit small radius button" type="submit" value="Send Message"></p>
               </form>	          </div>
 	        </div>
 	      </div>
 	      <div class="lower-footer">
 	        <div class="row">
 	         <div class="large-5 columns"><p class="copyright">Copyright &copy; 2014 www.hollywoodfitness.net</p></div>
-	         <div class="large-7 columns"><nav id="nav" class="header__nav">
-	<ul class="inline-list">
-		<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Pricing</a></li>
-		<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Features</a></li>
-		<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Classes</a></li>
-		<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Staff</a></li>
-		<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Media</a></li>
-		<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Blog</a></li>
-	</ul>
-</nav><!--end #nav-->
-</div>
+	         <div class="large-7 columns"><ul class="inline-list footer__nav">
+		<li class="footer__nav__button"><a class="radius button footer__nav__link" href="#">Pricing <span class="divider">|</span></a></li>
+		<li class="footer__nav__button"><a class="radius button footer__nav__link" href="#">Features <span class="divider">|</span></a></li>
+		<li class="footer__nav__button"><a class="radius button footer__nav__link" href="#">Classes <span class="divider">|</span></a></li>
+		<li class="footer__nav__button"><a class="radius button footer__nav__link" href="#">Staff <span class="divider">|</span></a></li>
+		<li class="footer__nav__button"><a class="radius button footer__nav__link" href="#">Media <span class="divider">|</span></a></li>
+		<li class="footer__nav__button"><a class="radius button footer__nav__link" href="#">Blog</a></li>
+	</ul></div>
 	        </div>
 	      </div>
 	</footer>
@@ -169,10 +183,10 @@
 			
 		}
 	</script>
-	<script id="pl-js-polyfill-insert-1395527712">
+	<script id="pl-js-polyfill-insert-1395684756">
 		(function() {
 			if (self != top) {
-				var cb = '1395527712';
+				var cb = '1395684756';
 				var js = [];
 				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
 					js.push("styleguide/js/vendor/classlist-polyfill.js");
@@ -181,10 +195,10 @@
 			}
 		})();
 	</script>
-	<script id="pl-js-insert-1395527712">
+	<script id="pl-js-insert-1395684756">
 		(function() {
 			if (self != top) {
-				var cb = '1395527712';
+				var cb = '1395684756';
 				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
 				scriptLoader.run(js,cb,'pl-js-insert');
 			}
