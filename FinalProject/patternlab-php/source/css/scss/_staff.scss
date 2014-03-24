@@ -27,5 +27,9 @@
 .staffItem__position { 
 	margin-bottom: 5px;
 	font-style: italic;
-	font-size: .7em;
+	font-size: .8em;
+}
+.staffItem__bio {
+	font-weight: 100;
+	color: $grey3;
 }
