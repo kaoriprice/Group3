@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width" />
 		
-		<link rel="stylesheet" href="../../css/style.css?1395527712" media="all" />
+		<link rel="stylesheet" href="../../css/style.css?1395683948" media="all" />
 
 		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
 				<!-- never cache patterns -->
@@ -15,7 +15,7 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1395527712" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1395683948" media="all">
 		
 
 		<!-- End Pattern Lab -->
@@ -32,7 +32,7 @@
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-05-navigation-00-primary-nav/01-molecules-05-navigation-00-primary-nav.html" class="patternLink" data-patternpartial="molecules-primary-nav">Primary Nav</a></h2>
 						<div class="sg-pattern-body">
 							<nav id="nav" class="header__nav">
-	<ul class="inline-list">
+	<ul class="inline-list mainNav">
 		<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Pricing</a></li>
 		<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Features</a></li>
 		<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Classes</a></li>
@@ -41,13 +41,26 @@
 		<li class="header__nav__button"><a class="radius button header__nav__link" href="#">Blog</a></li>
 	</ul>
 </nav><!--end #nav-->
+<div class="large-8 columns">
+	<a class="right-off-canvas-toggle icon-menu" href="#" >&nbsp;</a>
+	<aside class="right-off-canvas-menu">
+		<ul class="mobile-menu">
+	        <li class="main-nav__item"><a href="pages/pricing.html" class="main-nav__link">Pricing</a></li>
+	        <li class="main-nav__item"><a href="#" class="main-nav__link">Features</a></li>
+	        <li class="main-nav__item"><a href="pages/classes.html" class="main-nav__link">Classes</a></li>
+	        <li class="main-nav__item"><a href="pages/staff.html" class="main-nav__link">Staff</a></li>
+	        <li class="main-nav__item"><a href="pages/media.html" class="main-nav__link">Media</a></li>
+	        <li class="main-nav__item"><a href="#" class="main-nav__link">Blog</a></li>
+	      </ul>
+	</aside>
+</div>
 
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;nav id=&quot;nav&quot; class=&quot;header__nav&quot;&gt;
-	&lt;ul class=&quot;inline-list&quot;&gt;
+	&lt;ul class=&quot;inline-list mainNav&quot;&gt;
 		&lt;li class=&quot;header__nav__button&quot;&gt;&lt;a class=&quot;radius button header__nav__link&quot; href=&quot;#&quot;&gt;Pricing&lt;/a&gt;&lt;/li&gt;
 		&lt;li class=&quot;header__nav__button&quot;&gt;&lt;a class=&quot;radius button header__nav__link&quot; href=&quot;#&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;
 		&lt;li class=&quot;header__nav__button&quot;&gt;&lt;a class=&quot;radius button header__nav__link&quot; href=&quot;#&quot;&gt;Classes&lt;/a&gt;&lt;/li&gt;
@@ -56,6 +69,19 @@
 		&lt;li class=&quot;header__nav__button&quot;&gt;&lt;a class=&quot;radius button header__nav__link&quot; href=&quot;#&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/nav&gt;&lt;!--end #nav--&gt;
+&lt;div class=&quot;large-8 columns&quot;&gt;
+	&lt;a class=&quot;right-off-canvas-toggle icon-menu&quot; href=&quot;#&quot; &gt;&amp;nbsp;&lt;/a&gt;
+	&lt;aside class=&quot;right-off-canvas-menu&quot;&gt;
+		&lt;ul class=&quot;mobile-menu&quot;&gt;
+	        &lt;li class=&quot;main-nav__item&quot;&gt;&lt;a href=&quot;pages/pricing.html&quot; class=&quot;main-nav__link&quot;&gt;Pricing&lt;/a&gt;&lt;/li&gt;
+	        &lt;li class=&quot;main-nav__item&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;main-nav__link&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;
+	        &lt;li class=&quot;main-nav__item&quot;&gt;&lt;a href=&quot;pages/classes.html&quot; class=&quot;main-nav__link&quot;&gt;Classes&lt;/a&gt;&lt;/li&gt;
+	        &lt;li class=&quot;main-nav__item&quot;&gt;&lt;a href=&quot;pages/staff.html&quot; class=&quot;main-nav__link&quot;&gt;Staff&lt;/a&gt;&lt;/li&gt;
+	        &lt;li class=&quot;main-nav__item&quot;&gt;&lt;a href=&quot;pages/media.html&quot; class=&quot;main-nav__link&quot;&gt;Media&lt;/a&gt;&lt;/li&gt;
+	        &lt;li class=&quot;main-nav__item&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;main-nav__link&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+	      &lt;/ul&gt;
+	&lt;/aside&gt;
+&lt;/div&gt;
 
 									</code>
 								</pre>
@@ -65,22 +91,26 @@
 					<div id="molecules-footer-nav" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-05-navigation-01-footer-nav/01-molecules-05-navigation-01-footer-nav.html" class="patternLink" data-patternpartial="molecules-footer-nav">Footer Nav</a></h2>
 						<div class="sg-pattern-body">
-							<ul class="nav-footer">
-	<li><a href="#">Home</a></li>
-	<li><a href="#">About</a></li>
-	<li><a href="#">Blog</a></li>
-	<li><a href="#">Contact</a></li>
-</ul>
+							<ul class="inline-list footer__nav">
+		<li class="footer__nav__button"><a class="radius button footer__nav__link" href="#">Pricing <span class="divider">|</span></a></li>
+		<li class="footer__nav__button"><a class="radius button footer__nav__link" href="#">Features <span class="divider">|</span></a></li>
+		<li class="footer__nav__button"><a class="radius button footer__nav__link" href="#">Classes <span class="divider">|</span></a></li>
+		<li class="footer__nav__button"><a class="radius button footer__nav__link" href="#">Staff <span class="divider">|</span></a></li>
+		<li class="footer__nav__button"><a class="radius button footer__nav__link" href="#">Media <span class="divider">|</span></a></li>
+		<li class="footer__nav__button"><a class="radius button footer__nav__link" href="#">Blog</a></li>
+	</ul>
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;ul class=&quot;nav-footer&quot;&gt;
-	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+										&lt;ul class=&quot;inline-list footer__nav&quot;&gt;
+		&lt;li class=&quot;footer__nav__button&quot;&gt;&lt;a class=&quot;radius button footer__nav__link&quot; href=&quot;#&quot;&gt;Pricing &lt;span class=&quot;divider&quot;&gt;|&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&quot;footer__nav__button&quot;&gt;&lt;a class=&quot;radius button footer__nav__link&quot; href=&quot;#&quot;&gt;Features &lt;span class=&quot;divider&quot;&gt;|&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&quot;footer__nav__button&quot;&gt;&lt;a class=&quot;radius button footer__nav__link&quot; href=&quot;#&quot;&gt;Classes &lt;span class=&quot;divider&quot;&gt;|&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&quot;footer__nav__button&quot;&gt;&lt;a class=&quot;radius button footer__nav__link&quot; href=&quot;#&quot;&gt;Staff &lt;span class=&quot;divider&quot;&gt;|&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&quot;footer__nav__button&quot;&gt;&lt;a class=&quot;radius button footer__nav__link&quot; href=&quot;#&quot;&gt;Media &lt;span class=&quot;divider&quot;&gt;|&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&quot;footer__nav__button&quot;&gt;&lt;a class=&quot;radius button footer__nav__link&quot; href=&quot;#&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
 									</code>
 								</pre>
 							</div>
@@ -213,10 +243,10 @@
 			
 		}
 	</script>
-	<script id="pl-js-polyfill-insert-1395527712">
+	<script id="pl-js-polyfill-insert-1395683948">
 		(function() {
 			if (self != top) {
-				var cb = '1395527712';
+				var cb = '1395683948';
 				var js = [];
 				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
 					js.push("styleguide/js/vendor/classlist-polyfill.js");
@@ -225,10 +255,10 @@
 			}
 		})();
 	</script>
-	<script id="pl-js-insert-1395527712">
+	<script id="pl-js-insert-1395683948">
 		(function() {
 			if (self != top) {
-				var cb = '1395527712';
+				var cb = '1395683948';
 				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
 				scriptLoader.run(js,cb,'pl-js-insert');
 			}
